@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Trading Card Generator</title>
+	<style>
+		.container {
+			position: absolute;
+			left: 50%;
+			transform: translateX(-50%);
+			width: 500px;
+			height: 700px;
+			background-color: orange;
+		}
+		.container .card {
+			border: 10px solid silver;
+			border-radius: 5px;
+			box-shadow: 0px 0px 2px black;
+			width: 300px;
+			height: 500px;
+			padding: 10px;
+			margin: 50px auto;
+			background-color: #f4f4f4;
+			position: relative;
+			overflow: hidden;
+			cursor:cell;
+            font-family: Arial, Helvetica, sans-serif;
+		}
+		.container .card:hover {
+			box-shadow: 0px 0px 5px black;
+		}
+        .container .card .name {
+			font-size: 24px;
+			text-align: center;
+			margin-top: 0px;
+            font-weight: 750;
+		}
+		.container .card img {
+			max-width: 100%;
+            border-radius: 5px;
+			height: auto;
+			display: block;
+			margin: 0 auto;
+			margin-top: 10px;
+		}
+		.container .card .fact {
+			font-size: 8px;
+			text-align: center;
+			margin-top: 1px;
+		}
+		.container .card .description {
+			font-size: 16px;
+			text-align: center;
+			margin-top: 3px;
+			margin-bottom: 10px;
+			padding: 0px 20px;
+			height: 100px;
+			overflow: auto;
+		}
+		.container .card .stats {
+			font-size: 16px;
+			margin-top: 10px;
+			text-align: center;
+		}
+		.container .card .ability {
+            position: absolute;
+            width: 200px;
+            left: 5%;
+			color: black;
+			margin-right: 20px;
+            font-weight: 750;
+            height: 20px;
+		}
+		.container .card .effect {
+            position: absolute;
+            width: 70px;
+            right: 10%;
+			color: red;
+            height: 20px;
+		}
+		.container .card .info {
+			position: absolute;
+			bottom: 5px;
+			left: 50%;
+			transform: translateX(-50%);
+			font-size: 8px;
+			text-align: center;
+			height: 10px;
+			width: 100%;
+			overflow:auto
+		}
+		.container .copy {
+			position: absolute;
+			bottom: 20px;
+			left: 50%;
+			transform: translateX(-50%);
+			font-size: 16px;
+			font-weight: bold;
+			padding: 10px;
+			background-color: #4CAF50;
+			color: white;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+			transition: background-color 0.3s ease;
+		}
+
+        .container .save {
+			position: absolute;
+			bottom: 70px;
+			left: 50%;
+			transform: translateX(-50%);
+			font-size: 16px;
+			font-weight: bold;
+			padding: 10px;
+			background-color: #4CAF50;
+			color: white;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+			transition: background-color 0.3s ease;
+		}
+
+		.container .copy:hover {
+			background-color: #3e8e41;
+		}
+
+        .container .save:hover {
+			background-color: #3e8e41;
+		}
+
+        .container #colorPicker {
+            position: absolute;
+            top: 50px;
+            left: 20px;
+            width: 80px;
+            height: 80px;
+        }
+	</style>
+	<script>
+		function saveCard() {
+			html2canvas(document.querySelector(".card"), {
+            backgroundColor: null
+          }).then(canvas => {
+				var image = canvas.toDataURL("image/png");
+				var link = document.createElement('a');
+                const nameDiv = document.querySelector('.name');
+				link.download = `${nameDiv.textContent.replace(/\s/g, "_").toLowerCase()}.png`;
+				link.href = image;
+				link.click();
+			});
+		}
+        function copyCard() {
+          html2canvas(document.querySelector(".card"), {
+            backgroundColor: null
+          }).then(canvas => {
+            var image = canvas.toDataURL("image/png");
+            var blob = dataURLtoBlob(image); // convert data URL to blob
+            var item = new ClipboardItem({ "image/png": blob }); // create clipboard item
+            navigator.clipboard.write([item]); // write to clipboard
+          });
+        }
+
+        function dataURLtoBlob(dataurl) { // helper function to convert data URL to blob
+          var arr = dataurl.split(',');
+          var mime = arr[0].match(/:(.*?);/)[1];
+          var bstr = atob(arr[1]);
+          var n = bstr.length;
+          var u8arr = new Uint8Array(n);
+          while(n--){
+            u8arr[n] = bstr.charCodeAt(n);
+          }
+          return new Blob([u8arr], {type:mime});
+        }
+	</script>
+</head>
+<body>
+  <div class="container">
+	<div class="card">
+        <div class="name" contenteditable="true">Name</div>
+        <label for="card-image-upload">
+          <img id="card-image" src="https://via.placeholder.com/300x200" alt="Card Image">
+        </label>
+        <input id="card-image-upload" type="file" accept="image/*" style="display: none;">
+		<div class="fact" contenteditable="true">Fact</div>
+        <div class="description" contenteditable="true">Description</div>
+		<div class="stats">
+    	  <span class="ability" contenteditable="true">Ability</span>
+    	  <span class="effect" contenteditable="true">Effect</span>
+    	</div>
+		<span class="info" contenteditable="true">©2023 mjbmjb Made on elhssoc.com -- version 1</span>
+	</div> 
+	<input type="color" id="colorPicker" onchange="changeColor()">
+	<button class="copy" onclick="copyCard()">Copy Card to Clipboard</button>
+    <button class="save" onclick="copyCard()">Save Card as Image</button> 
+  </div>
+
+      <script>
+      function changeColor() {
+        var color = document.getElementById("colorPicker").value;
+        document.querySelector(".card").style.backgroundColor = color;
+      }
+      </script>
+      
+      <script>
+        const imageUpload = document.getElementById("card-image-upload");
+        const cardImage = document.getElementById("card-image");
+        
+        imageUpload.addEventListener("change", function() {
+          const file = this.files[0];
+          if (file) {
+            const reader = new FileReader();
+            reader.onload = function(event) {
+              const img = new Image();
+              img.onload = function() {
+                const canvas = document.createElement("canvas");
+                canvas.width = 300;
+                canvas.height = 200;
+                const ctx = canvas.getContext("2d");
+                ctx.drawImage(img, 0, 0, 300, 200);
+                cardImage.src = canvas.toDataURL();
+              }
+              img.src = event.target.result;
+            }
+            reader.readAsDataURL(file);
+          }
+        });
+      </script>          
+	<script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+</body>
+</html>
