@@ -9,7 +9,6 @@
 			transform: translateX(-50%);
 			width: 500px;
 			height: 700px;
-			background-color: orange;
 		}
 		.container .card {
 			border: 10px solid silver;
@@ -24,6 +23,13 @@
 			overflow: hidden;
 			cursor:cell;
             font-family: Arial, Helvetica, sans-serif;
+		}
+		.card::before {
+		  content: attr(data-text);
+		  position: absolute;
+		  top: 0;
+		  left: 0;
+		  filter: contrast(200%) saturate(2000%);
 		}
 		.container .card:hover {
 			box-shadow: 0px 0px 5px black;
@@ -65,7 +71,6 @@
             position: absolute;
             width: 200px;
             left: 5%;
-			color: black;
 			margin-right: 20px;
             font-weight: 750;
             height: 20px;
@@ -74,7 +79,6 @@
             position: absolute;
             width: 70px;
             right: 10%;
-			color: red;
             height: 20px;
 		}
 		.container .card .info {
@@ -90,7 +94,7 @@
 		}
 		.container .copy {
 			position: absolute;
-			bottom: 20px;
+			bottom: 10px;
 			left: 50%;
 			transform: translateX(-50%);
 			font-size: 16px;
@@ -103,16 +107,57 @@
 			cursor: pointer;
 			transition: background-color 0.3s ease;
 		}
-
         .container .save {
 			position: absolute;
-			bottom: 70px;
+			bottom: 60px;
 			left: 50%;
 			transform: translateX(-50%);
 			font-size: 16px;
 			font-weight: bold;
 			padding: 10px;
 			background-color: #4CAF50;
+			color: white;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+			transition: background-color 0.3s ease;
+		}
+		.container .open {
+			position: absolute;
+			bottom: 60px;
+			right: 10%;
+			font-size: 16px;
+			font-weight: bold;
+			padding: 10px;
+			background-color: #9947c0;
+			color: white;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+			transition: background-color 0.3s ease;
+		}
+		.container .savePreset {
+			position: absolute;
+			bottom: 83px;
+			left: 10%;
+			font-size: 8px;
+			font-weight: bold;
+			padding: 3px;
+			background-color: #9947c0;
+			color: white;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+			transition: background-color 0.3s ease;
+		}
+		.container .loadPreset {
+			position: absolute;
+			bottom: 63px;
+			left: 10%;
+			font-size: 8px;
+			font-weight: bold;
+			padding: 3px;
+			background-color: #9947c0;
 			color: white;
 			border: none;
 			border-radius: 5px;
@@ -135,6 +180,9 @@
             width: 80px;
             height: 80px;
         }
+		.name, .fact, .description, .ability, .effect, .info {
+  		  white-space: pre-wrap;
+  		}
 	</style>
 	<script>
 		function saveCard() {
@@ -191,15 +239,87 @@
 	</div> 
 	<input type="color" id="colorPicker" onchange="changeColor()">
 	<button class="copy" onclick="copyCard()">Copy Card to Clipboard</button>
-    <button class="save" onclick="copyCard()">Save Card as Image</button> 
+    <button class="save" onclick="copyCard()">Save Card as Image</button>
+	<button class="open" onclick="openTab()">Open Code</button>
+	<button class="savePreset" onclick="savePreset()">Save Preset</button>
+	<button class="loadPreset" onclick="loadPreset()">Load Preset</button>
   </div>
 
       <script>
       function changeColor() {
-        var color = document.getElementById("colorPicker").value;
-        document.querySelector(".card").style.backgroundColor = color;
-      }
+	    var color = document.getElementById("colorPicker").value;
+	    document.querySelector(".card").style.backgroundColor = color;
+	    var colorArray = hexToRgb(color);
+	    var textColorArray = invertColor(colorArray);
+	    var textColor = rgbToHex(textColorArray);
+	    document.querySelector(".card").style.color = textColor;
+	  }
+	  
+	  function hexToRgb(hex) {
+	    hex = hex.replace(/^#/, '');
+	    var r = parseInt(hex.slice(0, 2), 16);
+	    var g = parseInt(hex.slice(2, 4), 16);
+	    var b = parseInt(hex.slice(4, 6), 16);
+	    return [r, g, b];
+	  }
+	  
+	  function rgbToHex(rgb) {
+	    var r = rgb[0].toString(16).padStart(2, '0');
+	    var g = rgb[1].toString(16).padStart(2, '0');
+	    var b = rgb[2].toString(16).padStart(2, '0');
+	    return '#' + r + g + b;
+	  }
+	  
+	  function invertColor(color) {
+	    var r = color[0];
+	    var g = color[1];
+	    var b = color[2];
+	    var rInv = 255 - r;
+	    var gInv = 255 - g;
+	    var bInv = 255 - b;
+	    return [rInv, gInv, bInv];
+	  }
       </script>
+
+	  <script>
+		function savePreset() {
+		  let name = encodeURI(document.querySelector(".name").textContent);
+		  let fact = encodeURI(document.querySelector(".fact").textContent);
+		  let description = encodeURI(document.querySelector(".description").textContent);
+		  let ability = encodeURI(document.querySelector(".ability").textContent);
+		  let effect = encodeURI(document.querySelector(".effect").textContent);
+		  let info = encodeURI(document.querySelector(".info").textContent);
+		  let color = document.querySelector(".card").style.backgroundColor;
+
+		  let card = {
+		    name: name,
+		    fact: fact,
+		    description: description,
+		    ability: ability,
+		    effect: effect,
+		    info: info,
+		    color: color
+		  };
+	  
+		  let cardJSON = JSON.stringify(card);
+	  
+		  localStorage.setItem("card", cardJSON);
+		}
+
+		function loadPreset() {
+		  let cardJSON = localStorage.getItem("card");
+		
+		  let card = JSON.parse(cardJSON);
+		
+		  document.querySelector(".name").textContent = decodeURI(card.name);
+		  document.querySelector(".fact").textContent = decodeURI(card.fact);
+		  document.querySelector(".description").textContent = decodeURI(card.description);
+		  document.querySelector(".ability").textContent = decodeURI(card.ability);
+		  document.querySelector(".effect").textContent = decodeURI(card.effect);
+		  document.querySelector(".info").textContent = decodeURI(card.info);
+		  document.querySelector(".card").style.backgroundColor = card.color;
+		}
+	  </script>
       
       <script>
         const imageUpload = document.getElementById("card-image-upload");
@@ -224,7 +344,22 @@
             reader.readAsDataURL(file);
           }
         });
-      </script>          
+      </script>
+
+	  <script>
+		function openTab() {
+			var fileUrl = 'https://raw.githubusercontent.com/mjbmjb4846/ELSO/main/card.html';
+			fetch(fileUrl)
+			  .then(response => response.text()) // get the response as text
+			  .then(text => {
+				var newTab = window.open('', '_blank');
+				newTab.document.write(text);
+			  })
+			  .catch(error => {
+			    console.error(error);
+			  });
+		}
+	  </script>     
 	<script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
 </body>
 </html>
