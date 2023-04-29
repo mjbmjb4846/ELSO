@@ -225,7 +225,7 @@
   <div class="container">
 	<div class="card">
         <div class="name" contenteditable="true">Name</div>
-        <label for="card-image-upload">
+        <label class="cimg" for="card-image-upload">
           <img id="card-image" src="https://via.placeholder.com/300x200" alt="Card Image">
         </label>
         <input id="card-image-upload" type="file" accept="image/*" style="display: none;">
@@ -284,6 +284,7 @@
 	  <script>
 		function savePreset() {
 		  let name = encodeURI(document.querySelector(".name").textContent);
+		  let image = document.querySelector(".cimg").querySelector("img").src;
 		  let fact = encodeURI(document.querySelector(".fact").textContent);
 		  let description = encodeURI(document.querySelector(".description").textContent);
 		  let ability = encodeURI(document.querySelector(".ability").textContent);
@@ -293,6 +294,7 @@
 
 		  let card = {
 		    name: name,
+			image: image,
 		    fact: fact,
 		    description: description,
 		    ability: ability,
@@ -312,6 +314,7 @@
 		  let card = JSON.parse(cardJSON);
 		
 		  document.querySelector(".name").textContent = decodeURI(card.name);
+		  document.querySelector(".cimg").querySelector("img").setAttribute("src", card.image);
 		  document.querySelector(".fact").textContent = decodeURI(card.fact);
 		  document.querySelector(".description").textContent = decodeURI(card.description);
 		  document.querySelector(".ability").textContent = decodeURI(card.ability);
