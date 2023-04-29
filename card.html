@@ -186,29 +186,41 @@
 	</style>
 	<script>
 		function saveCard() {
-			html2canvas(document.querySelector(".card"), {
-            backgroundColor: null
-          }).then(canvas => {
-				var image = canvas.toDataURL("image/png");
-				var link = document.createElement('a');
-                const nameDiv = document.querySelector('.name');
-				link.download = `${nameDiv.textContent.replace(/\s/g, "_").toLowerCase()}.png`;
-				link.href = image;
-				link.click();
-			});
+		  html2canvas(document.querySelector(".card"), {
+		    backgroundColor: null
+		  }).then(canvas => {
+		    var image = canvas.toDataURL("image/png");
+		    var link = document.createElement('a');
+		    const nameDiv = document.querySelector('.name');
+		    link.download = `${nameDiv.textContent.replace(/\s/g, "_").toLowerCase()}.png`;
+		    link.href = image;
+		    var hiddenDiv = document.createElement('div');
+		    hiddenDiv.style.display = 'none';
+		    hiddenDiv.appendChild(link);
+		    document.body.appendChild(hiddenDiv);
+		    link.click();
+		    document.body.removeChild(hiddenDiv);
+		  });
 		}
-        function copyCard() {
-          html2canvas(document.querySelector(".card"), {
-            backgroundColor: null
-          }).then(canvas => {
-            var image = canvas.toDataURL("image/png");
-            var blob = dataURLtoBlob(image); // convert data URL to blob
-            var item = new ClipboardItem({ "image/png": blob }); // create clipboard item
-            navigator.clipboard.write([item]); // write to clipboard
-          });
-        }
+		function copyCard() {
+		  html2canvas(document.querySelector(".card"), {
+		    backgroundColor: null
+		  }).then(canvas => {
+		    var image = canvas.toDataURL("image/png");
+		    var blob = dataURLtoBlob(image);
+		    var item = new ClipboardItem({ "image/png": blob });
+		    navigator.permissions.query({name: "clipboard-write"}).then(result => {
+		      if (result.state == "granted" || result.state == "prompt") {
+		        navigator.clipboard.write([item]);
+		      }
+		      else {
+		        console.log("Permission to write to clipboard denied.");
+		      }
+		    });
+		  });
+		}
 
-        function dataURLtoBlob(dataurl) { // helper function to convert data URL to blob
+        function dataURLtoBlob(dataurl) {
           var arr = dataurl.split(',');
           var mime = arr[0].match(/:(.*?);/)[1];
           var bstr = atob(arr[1]);
@@ -353,16 +365,18 @@
 
 	  <script>
 		function openTab() {
-			var fileUrl = 'https://raw.githubusercontent.com/mjbmjb4846/ELSO/main/card.html';
-			fetch(fileUrl)
-			  .then(response => response.text()) // get the response as text
-			  .then(text => {
-				var newTab = window.open('', '_blank');
-				newTab.document.write(text);
-			  })
-			  .catch(error => {
-			    console.error(error);
-			  });
+		  var fileUrl = 'https://raw.githubusercontent.com/mjbmjb4846/ELSO/main/card.html';
+		  fetch(fileUrl)
+		    .then(response => response.text())
+		    .then(text => {
+		      var newTab = window.open('', '_blank');
+		      var div = document.createElement('div');
+		      div.innerHTML = text;
+		      newTab.document.body.appendChild(div);
+		    })
+		    .catch(error => {
+		      console.error(error);
+		    });
 		}
 	  </script>     
 	<script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
