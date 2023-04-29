@@ -290,7 +290,7 @@
 		  let ability = encodeURI(document.querySelector(".ability").textContent);
 		  let effect = encodeURI(document.querySelector(".effect").textContent);
 		  let info = encodeURI(document.querySelector(".info").textContent);
-		  let color = document.querySelector(".card").style.backgroundColor;
+		  let clr = document.getElementById("colorPicker").value;
 
 		  let card = {
 		    name: name,
@@ -300,7 +300,7 @@
 		    ability: ability,
 		    effect: effect,
 		    info: info,
-		    color: color
+			clr: clr
 		  };
 	  
 		  let cardJSON = JSON.stringify(card);
@@ -320,7 +320,9 @@
 		  document.querySelector(".ability").textContent = decodeURI(card.ability);
 		  document.querySelector(".effect").textContent = decodeURI(card.effect);
 		  document.querySelector(".info").textContent = decodeURI(card.info);
-		  document.querySelector(".card").style.backgroundColor = card.color;
+		  document.getElementById("colorPicker").setAttribute("value", card.clr);
+
+		  changeColor();
 		}
 	  </script>
       
