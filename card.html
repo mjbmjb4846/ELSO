@@ -202,6 +202,7 @@
             backgroundColor: null
           }).then(canvas => {
             var image = canvas.toDataURL("image/png");
+			console.log(image);
             var blob = dataURLtoBlob(image);
             var item = new ClipboardItem({ "image/png": blob });
             navigator.clipboard.write([item]);
