@@ -353,16 +353,17 @@
 
 	  <script>
 		function openTab() {
-			var fileUrl = 'https://raw.githubusercontent.com/mjbmjb4846/ELSO/main/card.html';
-			fetch(fileUrl)
-			  .then(response => response.text()) // get the response as text
-			  .then(text => {
-				var newTab = window.open('', '_blank');
-				newTab.document.write(text);
-			  })
-			  .catch(error => {
-			    console.error(error);
-			  });
+		  var fileUrl = 'https://raw.githubusercontent.com/mjbmjb4846/ELSO/main/card.html';
+		  fetch(fileUrl)
+		    .then(response => response.text())
+		    .then(text => {
+		      var blob = new Blob([text], {type: 'text/html'});
+		      var url = URL.createObjectURL(blob);
+		      window.open(url, '_blank');
+		    })
+		    .catch(error => {
+		      console.error(error);
+		    });
 		}
 	  </script>     
 	<script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
