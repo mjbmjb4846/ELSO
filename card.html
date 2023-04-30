@@ -202,13 +202,13 @@
             backgroundColor: null
           }).then(canvas => {
             var image = canvas.toDataURL("image/png");
-            var blob = dataURLtoBlob(image); // convert data URL to blob
-            var item = new ClipboardItem({ "image/png": blob }); // create clipboard item
-            navigator.clipboard.write([item]); // write to clipboard
+            var blob = dataURLtoBlob(image);
+            var item = new ClipboardItem({ "image/png": blob });
+            navigator.clipboard.write([item]);
           });
         }
 
-        function dataURLtoBlob(dataurl) { // helper function to convert data URL to blob
+        function dataURLtoBlob(dataurl) {
           var arr = dataurl.split(',');
           var mime = arr[0].match(/:(.*?);/)[1];
           var bstr = atob(arr[1]);
