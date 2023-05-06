@@ -1,0 +1,191 @@
+{
+	"categories": [
+		"Digital Logic Gates",
+		"Microcontroller Architecture",
+		"Circuit Design and Analysis",
+		"Programming Concepts for Microcontrollers",
+		"Interfacing with Input and Output Devices"
+	],
+    "questions": [
+        {
+            "category": "Digital Logic Gates",
+            "value": 100,
+            "question": "What is the Boolean expression for the XOR gate?",
+            "answer": "A ⊕ B or A ⊻ B"
+        },
+        {
+            "category": "Digital Logic Gates",
+            "value": 200,
+            "question": "What is the output of an AND gate when one of its inputs is 0?",
+            "answer": "0"
+        },
+        {
+            "category": "Digital Logic Gates",
+            "value": 300,
+            "question": "What is the difference between a decoder and a demultiplexer?",
+            "answer": "A decoder takes an input and selects one of many outputs, while a demultiplexer takes one input and sends it to one of many outputs."
+        },
+        {
+            "category": "Digital Logic Gates",
+            "value": 400,
+            "question": "What is the difference between a half adder and a full adder?",
+            "answer": "A half adder can add two binary digits, while a full adder can add three binary digits."
+        },
+        {
+            "category": "Digital Logic Gates",
+            "value": 500,
+            "question": "What is the function of a multiplexer?",
+            "answer": "A multiplexer selects one of many inputs and sends it to a single output."
+        },
+        {
+            "category": "Microcontroller Architecture",
+            "value": 100,
+            "question": "What is the difference between a microprocessor and a microcontroller?",
+            "answer": "A microprocessor is only the central processing unit (CPU) of a computer, while a microcontroller integrates a microprocessor with input/output peripherals and memory."
+        },
+        {
+            "category": "Microcontroller Architecture",
+            "value": 200,
+            "question": "What is the purpose of a crystal oscillator in a microcontroller?",
+            "answer": "A crystal oscillator provides a precise clock signal for the microcontroller, allowing it to synchronize its operations and communicate with other devices."
+        },
+        {
+            "category": "Microcontroller Architecture",
+            "value": 300,
+            "question": "What is the function of a watchdog timer in a microcontroller?",
+            "answer": "A watchdog timer is a safety feature that resets the microcontroller if it fails to respond within a certain time frame, preventing the device from getting stuck in an infinite loop or other malfunction."
+        },
+        {
+            "category": "Microcontroller Architecture",
+            "value": 400,
+            "question": "What is the purpose of a bootloader in a microcontroller?",
+            "answer": "A bootloader is a program that allows the microcontroller to receive new firmware updates over a communication interface, without the need for external programming equipment."
+        },
+        {
+            "category": "Microcontroller Architecture",
+            "value": 500,
+            "question": "What is the difference between an analog input and a digital input in a microcontroller?",
+            "answer": "An analog input can detect a range of voltage or current levels, while a digital input can only detect a binary on/off signal."
+        },
+        {
+            "category": "Circuit Design and Analysis",
+            "value": 100,
+            "question": "What is a resistor and how is it used in circuit design?",
+            "answer": "A resistor is an electrical component that limits the flow of current in a circuit. It is often used to control the voltage and current in a circuit, and to protect other components from damage by limiting the amount of current that flows through them."
+        },
+        {
+            "category": "Circuit Design and Analysis",
+            "value": 200,
+            "question": "What is a capacitor and how is it used in circuit design?",
+            "answer": "A capacitor is an electrical component that stores electric charge. It is often used in circuit design to filter out noise or ripple in power supplies, and to stabilize voltage in amplifiers and other circuits."
+        },
+        {
+            "category": "Circuit Design and Analysis",
+            "value": 300,
+            "question": "What is Ohm's law and how is it used in circuit design?",
+            "answer": "Ohm's law states that the current through a conductor between two points is directly proportional to the voltage across the two points. It is often used in circuit design to calculate the resistance, voltage, or current in a circuit."
+        },
+        {
+            "category": "Circuit Design and Analysis",
+            "value": 400,
+            "question": "What is a breadboard and how is it used in circuit design?",
+            "answer": "A breadboard is a device used to prototype electronic circuits. It allows for quick and easy experimentation with different circuit designs without the need for soldering or specialized tools."
+        },
+        {
+            "category": "Circuit Design and Analysis",
+            "value": 500,
+            "question": "What is a transistor and how is it used in circuit design?",
+            "answer": "A transistor is an electronic component that can amplify or switch electronic signals. It is often used in circuit design to control the flow of current in a circuit, or to amplify weak signals."
+        },
+        {
+            "category": "Programming Concepts for Microcontrollers",
+            "value": 100,
+            "question": "What is the purpose of a microcontroller?",
+            "answer": "A microcontroller is a compact integrated circuit designed to govern a specific operation in an embedded system."
+        },
+        {
+            "category": "Programming Concepts for Microcontrollers",
+            "value": 200,
+            "question": "What is an interrupt?",
+            "answer": "An interrupt is a signal that temporarily stops the normal processing of a microcontroller, allowing it to perform a specific task before resuming normal operations."
+        },
+        {
+            "category": "Programming Concepts for Microcontrollers",
+            "value": 300,
+            "question": "What is a watchdog timer?",
+            "answer": "A watchdog timer is a hardware timer that is used to automatically reset a microcontroller if the software becomes unresponsive or stops functioning properly."
+        },
+        {
+            "category": "Programming Concepts for Microcontrollers",
+            "value": 400,
+            "question": "What is the difference between a microcontroller and a microprocessor?",
+            "answer": "A microcontroller includes a CPU, memory, and input/output peripherals all on a single chip, while a microprocessor does not have the input/output peripherals."
+        },
+        {
+            "category": "Programming Concepts for Microcontrollers",
+            "value": 500,
+            "question": "What is a timer in a microcontroller?",
+            "answer": "A timer is a hardware device in a microcontroller that can be used to generate precise time delays or to count external events."
+        },
+        {
+            "category": "Programming Concepts for Microcontrollers",
+            "value": 100,
+            "question": "What is a microcontroller?",
+            "answer": "A microcontroller is a small computer on a single integrated circuit containing a processor core, memory, and programmable input/output peripherals."
+        },
+        {
+            "category": "Programming Concepts for Microcontrollers",
+            "value": 200,
+            "question": "What is an interrupt in microcontroller programming?",
+            "answer": "An interrupt is a signal that temporarily stops the main program to execute a special subroutine called an interrupt service routine (ISR)."
+        },
+        {
+            "category": "Programming Concepts for Microcontrollers",
+            "value": 300,
+            "question": "What is PWM in microcontroller programming?",
+            "answer": "PWM stands for pulse-width modulation. It is a technique used to generate analog signals from digital output pins of a microcontroller by rapidly toggling the pin state between high and low at a fixed frequency with varying duty cycles."
+        },
+        {
+            "category": "Programming Concepts for Microcontrollers",
+            "value": 400,
+            "question": "What is a timer in microcontroller programming?",
+            "answer": "A timer is a hardware peripheral in a microcontroller that can be used to generate precise time delays, measure the frequency of an external signal, or trigger an interrupt after a specified period of time."
+        },
+        {
+            "category": "Programming Concepts for Microcontrollers",
+            "value": 500,
+            "question": "What is a watchdog timer in microcontroller programming?",
+            "answer": "A watchdog timer is a hardware peripheral in a microcontroller that can reset the microcontroller if the software gets stuck or crashes. It is designed to prevent the microcontroller from getting stuck in an infinite loop or malfunctioning due to a software bug or hardware glitch."
+        },
+        {
+            "category": "Interfacing with Input and Output Devices",
+            "value": 100,
+            "question": "What is the purpose of a pull-up resistor in digital circuits?",
+            "answer": "The purpose of a pull-up resistor is to ensure that a digital signal is at a defined logic level when there is no input signal."
+        },
+        {
+            "category": "Interfacing with Input and Output Devices",
+            "value": 200,
+            "question": "What is the difference between a parallel and a serial interface?",
+            "answer": "A parallel interface transmits data several bits at a time, while a serial interface transmits data one bit at a time."
+        },
+        {
+            "category": "Interfacing with Input and Output Devices",
+            "value": 300,
+            "question": "What is PWM and what is it commonly used for?",
+            "answer": "PWM stands for Pulse Width Modulation, and it is commonly used to control the speed of motors or the brightness of LEDs."
+        },
+        {
+            "category": "Interfacing with Input and Output Devices",
+            "value": 400,
+            "question": "What is an ADC and what is it commonly used for?",
+            "answer": "ADC stands for Analog-to-Digital Converter, and it is commonly used to convert analog signals (such as voltage or current) into digital signals that can be read and processed by a microcontroller."
+        },
+        {
+            "category": "Interfacing with Input and Output Devices",
+            "value": 500,
+            "question": "What is a DAC and what is it commonly used for?",
+            "answer": "DAC stands for Digital-to-Analog Converter, and it is commonly used to convert digital signals into analog signals (such as voltage or current) that can be used to control analog devices like speakers or motors."
+        }        
+    ]
+}
