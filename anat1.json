@@ -1,0 +1,161 @@
+{
+  "categories": [
+    "Cardiovascular",
+    "Lymphatic",
+    "Excretory",
+    "Immune",
+    "Diseases"
+  ],
+  "questions": [
+    {
+      "category": "Cardiovascular",
+      "value": 100,
+      "question": "What is the name of the largest artery in the human body?",
+      "answer": "Aorta"
+    },
+    {
+      "category": "Cardiovascular",
+      "value": 200,
+      "question": "What is the medical term for high blood pressure?",
+      "answer": "Hypertension"
+    },
+    {
+      "category": "Cardiovascular",
+      "value": 300,
+      "question": "What is the name of the condition where the heart beats too fast?",
+      "answer": "Tachycardia"
+    },
+    {
+      "category": "Cardiovascular",
+      "value": 400,
+      "question": "What is the medical term for a heart attack?",
+      "answer": "Myocardial infarction"
+    },
+    {
+      "category": "Cardiovascular",
+      "value": 500,
+      "question": "What is the name of the vein that carries deoxygenated blood back to the heart from the lower body?",
+      "answer": "Inferior vena cava"
+    },
+    {
+      "category": "Lymphatic",
+      "value": 100,
+      "question": "What is the name of the lymphatic organ that filters blood and removes old red blood cells?",
+      "answer": "Spleen"
+    },
+    {
+      "category": "Lymphatic",
+      "value": 200,
+      "question": "What is the name of the lymphatic organ that produces T cells and is located in the chest?",
+      "answer": "Thymus"
+    },
+    {
+      "category": "Lymphatic",
+      "value": 300,
+      "question": "What is the name of the lymphatic vessel that carries lymph from the legs and lower body back to the heart?",
+      "answer": "Thoracic duct"
+    },
+    {
+      "category": "Lymphatic",
+      "value": 400,
+      "question": "What is the name of the lymphatic tissue found in the back of the throat?",
+      "answer": "Tonsils"
+    },
+    {
+      "category": "Lymphatic",
+      "value": 500,
+      "question": "What is the name of the lymphatic tissue found in the small intestine?",
+      "answer": "Peyer's patches"
+    },
+    {
+      "category": "Excretory",
+      "value": 100,
+      "question": "What is the name of the functional unit of the kidney?",
+      "answer": "Nephron"
+    },
+    {
+      "category": "Excretory",
+      "value": 200,
+      "question": "What is the name of the hormone that regulates water balance in the body?",
+      "answer": "Antidiuretic hormone (ADH)"
+    },
+    {
+      "category": "Excretory",
+      "value": 300,
+      "question": "What is the name of the condition where the kidneys fail to remove waste products from the blood?",
+      "answer": "Renal failure"
+    },
+    {
+      "category": "Excretory",
+      "value": 400,
+      "question": "What is the name of the tube that connects the bladder to the outside of the body?",
+      "answer": "Urethra"
+    },
+    {
+      "category": "Excretory",
+      "value": 500,
+      "question": "What is the name of the hormone produced by the kidneys that stimulates red blood cell production?",
+      "answer": "Erythropoietin"
+    },
+    {
+      "category": "Immune",
+      "value": 100,
+      "question": "What is the name of the cell type that produces antibodies?",
+      "answer": "B cells"
+    },
+    {
+      "category": "Immune",
+      "value": 200,
+      "question": "What is the name of the protein that helps white blood cells recognize and attack foreign substances?",
+      "answer": "Antibody"
+    },
+    {
+      "category": "Immune",
+      "value": 300,
+      "question": "What is the name of the cell type that destroys infected or cancerous cells?",
+      "answer": "Cytotoxic T cells"
+    },
+    {
+      "category": "Immune",
+      "value": 400,
+      "question": "What is the name of the immune cell that engulfs and digests foreign substances?",
+      "answer": "Phagocyte"
+    },
+    {
+      "category": "Immune",
+      "value": 500,
+      "question": "What is the name of the condition where the immune system attacks the body's own cells and tissues?",
+      "answer": "Autoimmune disease"
+    },
+    {
+      "category": "Diseases",
+      "value": 100,
+      "question": "What is the name of the virus that causes COVID-19?",
+      "answer": "SARS-CoV-2"
+    },
+    {
+      "category": "Diseases",
+      "value": 200,
+      "question": "What is the name of the bacterial infection that can cause ulcers?",
+      "answer": "Helicobacter pylori"
+    },
+    {
+      "category": "Diseases",
+      "value": 300,
+      "question": "What is the name of the condition where bones become brittle and fragile?",
+      "answer": "Osteoporosis"
+    },
+    {
+      "category": "Diseases",
+      "value": 400,
+      "question": "What is the name of the autoimmune disease that affects the joints?",
+      "answer": "Rheumatoid arthritis"
+    },
+    {
+      "category": "Diseases",
+      "value": 500,
+      "question": "What is the name of the degenerative brain disease that affects memory and thinking?",
+      "answer": "Alzheimer's disease"
+    }
+  ]
+}
