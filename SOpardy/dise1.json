@@ -1,0 +1,161 @@
+{
+	"categories": [
+		"Modes of Transmission",
+		"Preventing Disease Transmission",
+		"Risk Factors",
+		"Prevention and Control Strategies",
+		"Vaccines and Immunization"
+	],
+	"questions": [
+        {
+            "category": "Transmission Modes of Diseases",
+            "value": 100,
+            "question": "What is the difference between droplet transmission and airborne transmission of diseases?",
+            "answer": "Droplet transmission refers to the transmission of a disease through respiratory droplets that are produced when an infected person talks, coughs, or sneezes, and can travel up to a few feet before falling to the ground. Airborne transmission refers to the transmission of a disease through smaller particles, known as aerosols, which can travel longer distances and remain in the air for longer periods of time."
+        },
+        {
+            "category": "Transmission Modes of Diseases",
+            "value": 200,
+            "question": "What is indirect transmission of diseases?",
+            "answer": "Indirect transmission refers to the transmission of a disease through an intermediary object or organism, such as contaminated surfaces, food, water, or insects."
+        },
+        {
+            "category": "Transmission Modes of Diseases",
+            "value": 300,
+            "question": "What is vertical transmission of diseases?",
+            "answer": "Vertical transmission refers to the transmission of a disease from a mother to her child during pregnancy, childbirth, or breastfeeding."
+        },
+        {
+            "category": "Transmission Modes of Diseases",
+            "value": 400,
+            "question": "What are the main factors that influence the transmission of diseases?",
+            "answer": "The main factors that influence the transmission of diseases include the pathogen (i.e. the microorganism that causes the disease), the host (i.e. the person or animal that is infected with the pathogen), and the environment (i.e. the physical and social factors that affect the transmission of the disease)."
+        },
+        {
+            "category": "Transmission Modes of Diseases",
+            "value": 500,
+            "question": "What are the most effective measures to prevent the transmission of diseases?",
+            "answer": "The most effective measures to prevent the transmission of diseases include practicing good hygiene (such as hand washing), staying home when sick, wearing masks, maintaining physical distancing, getting vaccinated, and avoiding large gatherings."
+        },
+        {
+            "category": "Preventing Disease Transmission",
+            "value": 100,
+            "question": "What are the basic principles of infection control?",
+            "answer": "The basic principles of infection control include hand hygiene, using personal protective equipment (PPE), preventing needlestick and sharps injuries, and following standard precautions (such as sterilization and disinfection)."
+        },
+        {
+            "category": "Preventing Disease Transmission",
+            "value": 200,
+            "question": "What is the difference between isolation and quarantine?",
+            "answer": "Isolation is the separation of sick individuals with a contagious disease from those who are not sick. Quarantine is the separation and restriction of movement of individuals who have been exposed to a contagious disease but are not yet sick, to prevent further spread of the disease."
+        },
+        {
+            "category": "Preventing Disease Transmission",
+            "value": 300,
+            "question": "What are the different types of personal protective equipment (PPE)?",
+            "answer": "The different types of PPE include gloves, gowns, masks, respirators, face shields, and goggles."
+        },
+        {
+            "category": "Preventing Disease Transmission",
+            "value": 400,
+            "question": "What are the modes of transmission of COVID-19?",
+            "answer": "The modes of transmission of COVID-19 include respiratory droplets, airborne transmission, and contact transmission through surfaces contaminated with the virus."
+        },
+        {
+            "category": "Preventing Disease Transmission",
+            "value": 500,
+            "question": "What is the most effective way to prevent the transmission of infectious diseases?",
+            "answer": "The most effective way to prevent the transmission of infectious diseases is through good hygiene practices such as washing hands frequently, covering mouth and nose when coughing or sneezing, avoiding close contact with sick people, and staying home when feeling ill."
+        },
+        {
+            "category": "Risk Factors",
+            "value": 100,
+            "question": "What are the most common risk factors for cardiovascular diseases?",
+            "answer": "The most common risk factors for cardiovascular diseases are smoking, high blood pressure, high cholesterol, and physical inactivity."
+        },
+        {
+            "category": "Risk Factors",
+            "value": 200,
+            "question": "What are the main risk factors for type 2 diabetes?",
+            "answer": "The main risk factors for type 2 diabetes are obesity, lack of physical activity, unhealthy diet, and family history of diabetes."
+        },
+        {
+            "category": "Risk Factors",
+            "value": 300,
+            "question": "What are the risk factors for developing lung cancer?",
+            "answer": "The main risk factors for developing lung cancer are smoking, exposure to radon gas, and exposure to certain chemicals or substances, such as asbestos and arsenic."
+        },
+        {
+            "category": "Risk Factors",
+            "value": 400,
+            "question": "What are the risk factors for developing breast cancer?",
+            "answer": "The main risk factors for developing breast cancer are being a woman, aging, having a personal or family history of breast cancer, and exposure to certain hormones."
+        },
+        {
+            "category": "Risk Factors",
+            "value": 500,
+            "question": "What are the risk factors for developing Alzheimer's disease?",
+            "answer": "The main risk factors for developing Alzheimer's disease are age, family history of Alzheimer's, and certain genetic factors. Other factors that may increase the risk include head injuries, poor sleep, and chronic stress."
+        },
+        {
+            "category": "Prevention and Control Strategies",
+            "value": 100,
+            "question": "What are the most effective ways to prevent the spread of infectious diseases?",
+            "answer": "The most effective ways to prevent the spread of infectious diseases are washing hands frequently with soap and water, getting vaccinated, avoiding close contact with sick people, covering mouth and nose when coughing or sneezing, and staying home when feeling ill."
+        },
+        {
+            "category": "Prevention and Control Strategies",
+            "value": 200,
+            "question": "What are some examples of personal protective equipment (PPE) that can be used to prevent disease transmission?",
+            "answer": "Examples of personal protective equipment (PPE) that can be used to prevent disease transmission include gloves, gowns, masks, and goggles."
+        },
+        {
+            "category": "Prevention and Control Strategies",
+            "value": 300,
+            "question": "What are the main strategies for controlling the spread of sexually transmitted infections (STIs)?",
+            "answer": "The main strategies for controlling the spread of sexually transmitted infections (STIs) are getting tested and treated for STIs, and reducing the number of sexual partners."
+        },
+        {
+            "category": "Prevention and Control Strategies",
+            "value": 400,
+            "question": "What are the recommended strategies for controlling the spread of airborne diseases?",
+            "answer": "The recommended strategies for controlling the spread of airborne diseases include using airborne infection isolation rooms, wearing respiratory protection such as N95 masks, and increasing ventilation rates in indoor spaces."
+        },
+        {
+            "category": "Prevention and Control Strategies",
+            "value": 500,
+            "question": "What are the key components of an effective infection control program in healthcare settings?",
+            "answer": "The key components of an effective infection control program in healthcare settings include hand hygiene, use of personal protective equipment (PPE), environmental cleaning and disinfection, and safe injection practices."
+        },
+        {
+            "category": "Vaccines and Immunization",
+            "value": 100,
+            "question": "What is a vaccine?",
+            "answer": "A vaccine is a biological preparation that stimulates the body's immune system to recognize and fight a particular disease."
+        },
+        {
+            "category": "Vaccines and Immunization",
+            "value": 200,
+            "question": "How do vaccines work?",
+            "answer": "Vaccines work by exposing the immune system to a harmless part of a disease-causing agent (such as a protein from the virus or bacteria) or a weakened or inactivated form of the agent. This stimulates the immune system to produce an immune response that can recognize and fight the disease-causing agent if it is encountered in the future."
+        },
+        {
+            "category": "Vaccines and Immunization",
+            "value": 300,
+            "question": "What is herd immunity?",
+            "answer": "Herd immunity is a situation where a large proportion of a population is immune to a particular disease (through vaccination or prior infection), which can provide indirect protection to those who are not immune by reducing the likelihood of the disease spreading within the population."
+        },
+        {
+            "category": "Vaccines and Immunization",
+            "value": 400,
+            "question": "What are the different types of vaccines?",
+            "answer": "The different types of vaccines include inactivated or killed vaccines, live attenuated vaccines, subunit or recombinant vaccines, and mRNA vaccines."
+        },
+        {
+            "category": "Vaccines and Immunization",
+            "value": 500,
+            "question": "What are the benefits and risks of vaccination?",
+            "answer": "The benefits of vaccination include prevention of infectious diseases, reduction of disease transmission, and avoidance of potential complications and deaths from vaccine-preventable diseases. The risks of vaccination are generally low and include minor side effects such as soreness at the injection site or fever, and very rare serious adverse events."
+        }
+    ]
+}
