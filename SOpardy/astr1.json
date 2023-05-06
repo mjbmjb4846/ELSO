@@ -1,0 +1,161 @@
+{
+    "categories": [
+        "Stars and Galaxies",
+        "Planetary Science",
+        "Cosmology",
+        "Observational Techniques",
+        "Astrobiology"
+    ],
+    "questions": [
+        {
+            "category": "Stars and Galaxies",
+            "value": 100,
+            "question": "What is the name of the nearest star to Earth?",
+            "answer": "Proxima Centauri"
+        },
+        {
+            "category": "Stars and Galaxies",
+            "value": 200,
+            "question": "What is the name of the galaxy that contains our solar system?",
+            "answer": "Milky Way"
+        },
+        {
+            "category": "Stars and Galaxies",
+            "value": 300,
+            "question": "What is a supernova?",
+            "answer": "A supernova is a powerful and luminous explosion that occurs when a star exhausts its nuclear fuel and collapses."
+        },
+        {
+            "category": "Stars and Galaxies",
+            "value": 400,
+            "question": "What is the Hertzsprung-Russell diagram?",
+            "answer": "The Hertzsprung-Russell diagram is a graph that plots the luminosity and temperature of stars, which allows astronomers to study their evolutionary stages."
+        },
+        {
+            "category": "Stars and Galaxies",
+            "value": 500,
+            "question": "What is dark matter?",
+            "answer": "Dark matter is a form of matter that does not interact with light or other forms of electromagnetic radiation, but is believed to make up about 85% of the matter in the universe."
+        },
+        {
+            "category": "Planetary Science",
+            "value": 100,
+            "question": "What is the largest planet in our solar system?",
+            "answer": "Jupiter"
+        },
+        {
+            "category": "Planetary Science",
+            "value": 200,
+            "question": "What is the name of the largest volcano in our solar system, located on Mars?",
+            "answer": "Olympus Mons"
+        },
+        {
+            "category": "Planetary Science",
+            "value": 300,
+            "question": "What is a meteor?",
+            "answer": "A meteor is a small piece of space debris that enters Earth's atmosphere and burns up, producing a streak of light in the sky."
+        },
+        {
+            "category": "Planetary Science",
+            "value": 400,
+            "question": "What is the Kuiper Belt?",
+            "answer": "The Kuiper Belt is a region of the solar system beyond the orbit of Neptune that contains many small icy objects, including dwarf planets like Pluto."
+        },
+        {
+            "category": "Planetary Science",
+            "value": 500,
+            "question": "What is the habitable zone?",
+            "answer": "The habitable zone is the range of distances from a star where liquid water could exist on the surface of a planet, making it potentially suitable for life."
+        },
+        {
+            "category": "Cosmology",
+            "value": 100,
+            "question": "What is the Big Bang?",
+            "answer": "The Big Bang is the prevailing cosmological model that describes the early development of the universe, starting from a singularity and expanding rapidly."
+        },
+        {
+            "category": "Cosmology",
+            "value": 200,
+            "question": "What is dark energy?",
+            "answer": "Dark energy is a hypothetical form of energy that is believed to be responsible for the accelerating expansion of the universe."
+        },
+        {
+            "category": "Cosmology",
+            "value": 300,
+            "question": "What is the cosmic microwave background?",
+            "answer": "The cosmic microwave background is a faint glow of radiation that pervades the universe, which is believed to be the leftover heat from the Big Bang."
+        },
+        {
+            "category": "Cosmology",
+            "value": 400,
+            "question": "What is a black hole?",
+            "answer": "A black hole is a region of spacetime where gravity is so strong that nothing, not even light, can escape from it."
+        },
+        {
+            "category": "Cosmology",
+            "value": 500,
+            "question": "What is dark matter?",
+            "answer": "Dark matter is a form of matter that does not interact with light or other forms of electromagnetic radiation, but is believed to make up about 85% of the matter in the universe."
+        },
+        {
+            "category": "Observational Techniques",
+            "value": 100,
+            "question": "What is spectroscopy?",
+            "answer": "Spectroscopy is a technique used to study the properties of light, such as its wavelength and intensity, which can reveal information about the composition and temperature of celestial objects."
+        },
+        {
+            "category": "Observational Techniques",
+            "value": 200,
+            "question": "What is adaptive optics?",
+            "answer": "Adaptive optics is a technique used to correct for the blurring of images caused by the Earth's atmosphere, which allows telescopes to obtain clearer and sharper images of celestial objects."
+        },
+        {
+            "category": "Observational Techniques",
+            "value": 300,
+            "question": "What is interferometry?",
+            "answer": "Interferometry is a technique used to combine signals from multiple telescopes to produce high-resolution images of celestial objects, which can reveal details that would be impossible to observe with a single telescope."
+        },
+        {
+            "category": "Observational Techniques",
+            "value": 400,
+            "question": "What is photometry?",
+            "answer": "Photometry is a technique used to measure the brightness of celestial objects, which can reveal information about their distance, size, and temperature."
+        },
+        {
+            "category": "Observational Techniques",
+            "value": 500,
+            "question": "What is gravitational lensing?",
+            "answer": "Gravitational lensing is a phenomenon where the gravitational field of a massive object, such as a galaxy, bends and distorts the light from a more distant object, allowing astronomers to study the properties of the lensing object and the lensed object."
+        },
+        {
+            "category": "Astrobiology",
+            "value": 100,
+            "question": "What is the definition of life?",
+            "answer": "Life is a characteristic that distinguishes physical entities with biological processes, such as signaling and self-sustaining processes, from those without such processes."
+        },
+        {
+            "category": "Astrobiology",
+            "value": 200,
+            "question": "What is the Drake equation?",
+            "answer": "The Drake equation is an equation used to estimate the number of active, communicative extraterrestrial civilizations in the Milky Way galaxy."
+        },
+        {
+            "category": "Astrobiology",
+            "value": 300,
+            "question": "What is the habitable zone?",
+            "answer": "The habitable zone is the range of distances from a star where liquid water can exist on the surface of a planet, which is considered a key factor in determining a planet's potential for supporting life."
+        },
+        {
+            "category": "Astrobiology",
+            "value": 400,
+            "question": "What is panspermia?",
+            "answer": "Panspermia is the hypothesis that life exists throughout the universe and can be spread from one planet to another by natural means, such as meteoroid impacts."
+        },
+        {
+            "category": "Astrobiology",
+            "value": 500,
+            "question": "What is the Fermi Paradox?",
+            "answer": "The Fermi Paradox is the apparent contradiction between the high probability of the existence of extraterrestrial civilizations and the lack of evidence for, or contact with, such civilizations." 
+        }
+    ]
+}
