@@ -100,36 +100,6 @@
         {
             "category": "Programming Concepts for Microcontrollers",
             "value": 100,
-            "question": "What is the purpose of a microcontroller?",
-            "answer": "A microcontroller is a compact integrated circuit designed to govern a specific operation in an embedded system."
-        },
-        {
-            "category": "Programming Concepts for Microcontrollers",
-            "value": 200,
-            "question": "What is an interrupt?",
-            "answer": "An interrupt is a signal that temporarily stops the normal processing of a microcontroller, allowing it to perform a specific task before resuming normal operations."
-        },
-        {
-            "category": "Programming Concepts for Microcontrollers",
-            "value": 300,
-            "question": "What is a watchdog timer?",
-            "answer": "A watchdog timer is a hardware timer that is used to automatically reset a microcontroller if the software becomes unresponsive or stops functioning properly."
-        },
-        {
-            "category": "Programming Concepts for Microcontrollers",
-            "value": 400,
-            "question": "What is the difference between a microcontroller and a microprocessor?",
-            "answer": "A microcontroller includes a CPU, memory, and input/output peripherals all on a single chip, while a microprocessor does not have the input/output peripherals."
-        },
-        {
-            "category": "Programming Concepts for Microcontrollers",
-            "value": 500,
-            "question": "What is a timer in a microcontroller?",
-            "answer": "A timer is a hardware device in a microcontroller that can be used to generate precise time delays or to count external events."
-        },
-        {
-            "category": "Programming Concepts for Microcontrollers",
-            "value": 100,
             "question": "What is a microcontroller?",
             "answer": "A microcontroller is a small computer on a single integrated circuit containing a processor core, memory, and programmable input/output peripherals."
         },
