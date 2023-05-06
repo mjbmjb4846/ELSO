@@ -32,6 +32,12 @@
             "answer": "A digital signature is a cryptographic technique used to verify the authenticity and integrity of digital messages or documents."
         },
         {
+            "category": "Cryptographic primitives",
+            "value": 500,
+            "question": "What is a hash function and what are some common uses for it in cryptography?",
+            "answer": "A hash function is a mathematical function that takes input data of arbitrary size and outputs a fixed-size bit string, which is typically a unique representation of the input data. Some common uses for hash functions in cryptography include password storage, data integrity verification, and digital signature generation."
+        },
+        {
             "category": "Cryptographic protocols",
             "value": 100,
             "question": "What is SSL/TLS?",
@@ -54,6 +60,12 @@
             "value": 400,
             "question": "What is SSH?",
             "answer": "SSH (Secure Shell) is a protocol used to secure remote access to a computer or server."
+        },
+        {
+            "category": "Cryptographic protocols",
+            "value": 500,
+            "question": "What is the purpose of the Transport Layer Security (TLS) protocol?",
+            "answer": "The Transport Layer Security (TLS) protocol is a cryptographic protocol that provides secure communications over a computer network. It is commonly used to secure web traffic (HTTPS), email (SMTPS), and other applications that require confidentiality, integrity, and authenticity of data transmitted over a network."
         },
         {
             "category": "Cryptanalysis",
@@ -80,6 +92,12 @@
             "answer": "A chosen-plaintext attack is a cryptanalytic attack where the attacker can choose the plaintext messages to be encrypted and then observe the corresponding ciphertexts, in order to gain information about the key."
         },
         {
+            "category": "Cryptanalysis",
+            "value": 500,
+            "question": "What is a known-plaintext attack, and how does it work?",
+            "answer": "A known-plaintext attack is a type of cryptanalytic attack where the attacker has access to both the plaintext and ciphertext of some messages encrypted using a particular cryptographic algorithm. By analyzing these pairs, the attacker attempts to deduce the secret key used in the encryption process."
+        },
+        {
             "category": "Cryptography in History",
             "value": 100,
             "question": "What is the Caesar cipher?",
@@ -102,6 +120,12 @@
             "value": 400,
             "question": "What is the Diffie-Hellman key exchange?",
             "answer": "The Diffie-Hellman key exchange is a cryptographic protocol for secure communication over an insecure channel. It allows two parties to establish a shared secret key without ever communicating the key directly."
+        },
+        {
+            "category": "Cryptography in History",
+            "value": 500,
+            "question": "What is the Enigma machine, and how was it used in World War II?",
+            "answer": "The Enigma machine was a series of electro-mechanical rotor cipher machines developed and used in the early to mid-20th century to protect commercial, diplomatic, and military communication. During World War II, the German military used the Enigma machine to encrypt their communications, and the Allies spent significant resources on breaking the Enigma cipher, including developing the first electronic digital computer, the Colossus, to aid in the effort."
         },
         {
             "category": "Cryptography in Practice",
