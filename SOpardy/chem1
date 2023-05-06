@@ -1,0 +1,161 @@
+{
+    "categories": [
+      "Periodic Table",
+      "Chemical Bonding",
+      "Thermodynamics",
+      "Organic Chemistry",
+      "Analytical Chemistry"
+    ],
+    "questions": [
+        {
+          "category": "Periodic Table",
+          "value": 100,
+          "question": "What is the symbol for gold on the periodic table?",
+          "answer": "Au"
+        },
+        {
+          "category": "Periodic Table",
+          "value": 200,
+          "question": "What is the most abundant gas in the Earth's atmosphere?",
+          "answer": "Nitrogen"
+        },
+        {
+          "category": "Periodic Table",
+          "value": 300,
+          "question": "What is the atomic number of carbon?",
+          "answer": "6"
+        },
+        {
+          "category": "Periodic Table",
+          "value": 400,
+          "question": "What element has the symbol 'Fe'?",
+          "answer": "Iron"
+        },
+        {
+          "category": "Periodic Table",
+          "value": 500,
+          "question": "What element has the highest melting point?",
+          "answer": "Tungsten"
+        },
+        {
+          "category": "Chemical Bonding",
+          "value": 100,
+          "question": "What type of bond involves the sharing of electrons between atoms?",
+          "answer": "Covalent bond"
+        },
+        {
+          "category": "Chemical Bonding",
+          "value": 200,
+          "question": "What type of bond involves the transfer of electrons between atoms?",
+          "answer": "Ionic bond"
+        },
+        {
+          "category": "Chemical Bonding",
+          "value": 300,
+          "question": "What is the name for a bond between a metal and a nonmetal?",
+          "answer": "Ionic bond"
+        },
+        {
+          "category": "Chemical Bonding",
+          "value": 400,
+          "question": "What type of bond involves the sharing of electron density between atoms, but not the sharing of electrons?",
+          "answer": "Hydrogen bond"
+        },
+        {
+          "category": "Chemical Bonding",
+          "value": 500,
+          "question": "What is the name for a bond between two atoms of the same element?",
+          "answer": "Diatomic bond"
+        },
+        {
+            "category": "Stoichiometry",
+            "value": 100,
+            "question": "What is the definition of stoichiometry?",
+            "answer": "The calculation of the quantities of reactants and products involved in a chemical reaction."
+          },
+          {
+            "category": "Stoichiometry",
+            "value": 200,
+            "question": "What is the molar mass of water (H2O)?",
+            "answer": "18.015 g/mol"
+          },
+          {
+            "category": "Stoichiometry",
+            "value": 300,
+            "question": "What is the balanced chemical equation for the reaction between sodium (Na) and chlorine (Cl2) to form sodium chloride (NaCl)?",
+            "answer": "2 Na + Cl2 → 2 NaCl"
+          },
+          {
+            "category": "Stoichiometry",
+            "value": 400,
+            "question": "What is the limiting reagent in a chemical reaction?",
+            "answer": "The reactant that is completely consumed in a reaction."
+          },
+          {
+            "category": "Stoichiometry",
+            "value": 500,
+            "question": "What is the theoretical yield of a chemical reaction?",
+            "answer": "The maximum amount of product that can be obtained from a given amount of reactant."
+          },
+          {
+            "category": "Thermodynamics",
+            "value": 100,
+            "question": "What is the first law of thermodynamics?",
+            "answer": "Energy cannot be created or destroyed, only transformed from one form to another."
+          },
+          {
+            "category": "Thermodynamics",
+            "value": 200,
+            "question": "What is the difference between an exothermic and an endothermic reaction?",
+            "answer": "An exothermic reaction releases heat, while an endothermic reaction absorbs heat."
+          },
+          {
+            "category": "Thermodynamics",
+            "value": 300,
+            "question": "What is the definition of enthalpy?",
+            "answer": "The heat content of a system at constant pressure."
+          },
+          {
+            "category": "Thermodynamics",
+            "value": 400,
+            "question": "What is the difference between a reversible and an irreversible process?",
+            "answer": "A reversible process can be reversed by an infinitesimal change in the conditions, while an irreversible process cannot be reversed."
+          },
+          {
+            "category": "Thermodynamics",
+            "value": 500,
+            "question": "What is the definition of entropy?",
+            "answer": "A measure of the disorder or randomness of a system."
+          },
+          {
+            "category": "Acids and Bases",
+            "value": 100,
+            "question": "What is the definition of an acid?",
+            "answer": "A substance that donates hydrogen ions (H+) in aqueous solution."
+        },
+        {
+            "category": "Acids and Bases",
+            "value": 200,
+            "question": "What is the pH of a neutral solution?",
+            "answer": "7"
+        },
+        {
+            "category": "Acids and Bases",
+            "value": 300,
+            "question": "What is the difference between a strong acid and a weak acid?",
+            "answer": "A strong acid completely dissociates in aqueous solution, while a weak acid partially dissociates."
+        },
+        {
+            "category": "Acids and Bases",
+            "value": 400,
+            "question": "What is the definition of a base?",
+            "answer": "A substance that accepts hydrogen ions (H+) in aqueous solution."
+        },
+        {
+            "category": "Acids and Bases",
+            "value": 500,
+            "question": "What is the difference between a strong base and a weak base?",
+            "answer": "A strong base completely dissociates in aqueous solution, while a weak base partially dissociates."
+        }                  
+    ]
+}
