@@ -1,0 +1,137 @@
+{
+    "categories": [
+        "Cryptographic primitives",
+        "Cryptographic protocols",
+        "Cryptanalysis",
+        "Cryptography in history",
+        "Cryptography in practice"
+    ],
+    "questions": [
+        {
+            "category": "Cryptographic primitives",
+            "value": 100,
+            "question": "What is symmetric key encryption?",
+            "answer": "Symmetric key encryption is a type of encryption that uses the same key for both encryption and decryption."
+        },
+        {
+            "category": "Cryptographic primitives",
+            "value": 200,
+            "question": "What is asymmetric key encryption?",
+            "answer": "Asymmetric key encryption, also known as public key encryption, uses two keys: a public key for encryption and a private key for decryption."
+        },
+        {
+            "category": "Cryptographic primitives",
+            "value": 300,
+            "question": "What is a hashing function?",
+            "answer": "A hashing function is a mathematical function that takes an input and produces a fixed-size output, which is typically used as a digital fingerprint of the input data."
+        },
+        {
+            "category": "Cryptographic primitives",
+            "value": 400,
+            "question": "What is a digital signature?",
+            "answer": "A digital signature is a cryptographic technique used to verify the authenticity and integrity of digital messages or documents."
+        },
+        {
+            "category": "Cryptographic protocols",
+            "value": 100,
+            "question": "What is SSL/TLS?",
+            "answer": "SSL/TLS (Secure Sockets Layer/Transport Layer Security) is a security protocol used to provide secure communication over the internet."
+        },
+        {
+            "category": "Cryptographic protocols",
+            "value": 200,
+            "question": "What is IPsec?",
+            "answer": "IPsec (Internet Protocol Security) is a protocol suite used to secure internet protocol (IP) communications by authenticating and encrypting each IP packet of a communication session."
+        },
+        {
+            "category": "Cryptographic protocols",
+            "value": 300,
+            "question": "What is a VPN?",
+            "answer": "A VPN (Virtual Private Network) is a secure network connection that enables remote users to access a private network over the internet."
+        },
+        {
+            "category": "Cryptographic protocols",
+            "value": 400,
+            "question": "What is SSH?",
+            "answer": "SSH (Secure Shell) is a protocol used to secure remote access to a computer or server."
+        },
+        {
+            "category": "Cryptanalysis",
+            "value": 100,
+            "question": "What is cryptanalysis?",
+            "answer": "Cryptanalysis is the study of methods for obtaining the meaning of encrypted information, without access to the secret information that is normally required to do so."
+        },
+        {
+            "category": "Cryptanalysis",
+            "value": 200,
+            "question": "What is frequency analysis?",
+            "answer": "Frequency analysis is a technique used in cryptanalysis to analyze the frequency of letters or symbols in a ciphertext in order to determine the most likely mapping between plaintext and ciphertext symbols."
+        },
+        {
+            "category": "Cryptanalysis",
+            "value": 300,
+            "question": "What is a brute-force attack?",
+            "answer": "A brute-force attack is a cryptanalytic attack that involves trying every possible key or password until the correct one is found."
+        },
+        {
+            "category": "Cryptanalysis",
+            "value": 400,
+            "question": "What is a chosen-plaintext attack?",
+            "answer": "A chosen-plaintext attack is a cryptanalytic attack where the attacker can choose the plaintext messages to be encrypted and then observe the corresponding ciphertexts, in order to gain information about the key."
+        },
+        {
+            "category": "Cryptography in History",
+            "value": 100,
+            "question": "What is the Caesar cipher?",
+            "answer": "The Caesar cipher is a simple substitution cipher where each letter in the plaintext is shifted a fixed number of positions down the alphabet."
+        },
+        {
+            "category": "Cryptography in History",
+            "value": 200,
+            "question": "What is the Vigenère cipher?",
+            "answer": "The Vigenère cipher is a polyalphabetic substitution cipher where the plaintext is encrypted using a series of different Caesar ciphers based on a keyword."
+        },
+        {
+            "category": "Cryptography in History",
+            "value": 300,
+            "question": "What is the Enigma machine?",
+            "answer": "The Enigma machine was a cipher machine used by the German military during World War II to encrypt messages. It was famously broken by the Allies, who developed methods for cryptanalysis."
+        },
+        {
+            "category": "Cryptography in History",
+            "value": 400,
+            "question": "What is the Diffie-Hellman key exchange?",
+            "answer": "The Diffie-Hellman key exchange is a cryptographic protocol for secure communication over an insecure channel. It allows two parties to establish a shared secret key without ever communicating the key directly."
+        },
+        {
+            "category": "Cryptography in Practice",
+            "value": 100,
+            "question": "What is a block cipher?",
+            "answer": "A block cipher is a type of cipher that encrypts data in fixed-size blocks, typically 64 or 128 bits in length."
+        },
+        {
+            "category": "Cryptography in Practice",
+            "value": 200,
+            "question": "What is a stream cipher?",
+            "answer": "A stream cipher is a type of cipher that encrypts data one bit or byte at a time, using a keystream generated from a key and an initialization vector."
+        },
+        {
+            "category": "Cryptography in Practice",
+            "value": 300,
+            "question": "What is symmetric-key cryptography?",
+            "answer": "Symmetric-key cryptography is a type of cryptography where the same key is used for both encryption and decryption of data."
+        },
+        {
+            "category": "Cryptography in Practice",
+            "value": 400,
+            "question": "What is public-key cryptography?",
+            "answer": "Public-key cryptography is a type of cryptography where a pair of keys is used for encryption and decryption, with one key (the public key) available to anyone and the other key (the private key) kept secret."
+        },
+        {
+            "category": "Cryptography in Practice",
+            "value": 500,
+            "question": "What is a digital signature?",
+            "answer": "A digital signature is a mathematical scheme for verifying the authenticity of digital messages or documents. It involves using a secret key to generate a signature, which can be verified by anyone who has access to the corresponding public key."
+        }                        
+    ]
+}
