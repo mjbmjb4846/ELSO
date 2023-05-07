@@ -99,31 +99,31 @@
         },
         {
             "category": "Conservation",
-            "points": 100,
+            "value": 100,
             "question": "What is conservation in forestry?",
             "answer": "Conservation in forestry refers to the sustainable management of forests, including the protection of forest ecosystems and the wildlife they support, as well as the management of forest resources to meet the needs of present and future generations."
         },
         {
             "category": "Conservation",
-            "points": 200,
+            "value": 200,
             "question": "What are some conservation practices used in forestry?",
             "answer": "Conservation practices used in forestry include selective harvesting, reforestation, maintaining biodiversity, protecting forest habitats, and preventing deforestation."
         },
         {
             "category": "Conservation",
-            "points": 300,
+            "value": 300,
             "question": "Why is conservation important in forestry?",
             "answer": "Conservation is important in forestry because forests provide a wide range of benefits to society, including clean air and water, wildlife habitat, recreation, and wood products. By managing forests sustainably, we can ensure that these benefits are available for current and future generations."
         },
         {
             "category": "Conservation",
-            "points": 400,
+            "value": 400,
             "question": "What are some threats to forest conservation?",
             "answer": "Some threats to forest conservation include deforestation, habitat fragmentation, invasive species, pollution, and climate change."
         },
         {
             "category": "Conservation",
-            "points": 500,
+            "value": 500,
             "question": "How can individuals contribute to forest conservation?",
             "answer": "Individuals can contribute to forest conservation by supporting sustainable forestry practices, reducing their use of wood and paper products, participating in reforestation efforts, and supporting organizations that work to protect forests and wildlife."
         },
