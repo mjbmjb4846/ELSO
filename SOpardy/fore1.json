@@ -1,0 +1,161 @@
+{
+	"categories": [
+		"Forensic Science Disciplines",
+		"Evidence and Analysis",
+		"Forensic Terminology",
+		"History and Cases",
+		"Forensic Challenges"
+	],
+	"questions": [
+        {
+            "category": "Forensic Science Disciplines",
+            "value": 100,
+            "question": "What is the forensic science discipline that deals with the examination of fingerprints?",
+            "answer": "The forensic science discipline that deals with the examination of fingerprints is called dactyloscopy."
+        },
+        {
+            "category": "Forensic Science Disciplines",
+            "value": 200,
+            "question": "What is the forensic science discipline that deals with the analysis of handwriting and signatures?",
+            "answer": "The forensic science discipline that deals with the analysis of handwriting and signatures is called questioned document examination."
+        },
+        {
+            "category": "Forensic Science Disciplines",
+            "value": 300,
+            "question": "What is the forensic science discipline that deals with the analysis of bloodstain patterns?",
+            "answer": "The forensic science discipline that deals with the analysis of bloodstain patterns is called bloodstain pattern analysis."
+        },
+        {
+            "category": "Forensic Science Disciplines",
+            "value": 400,
+            "question": "What is the forensic science discipline that deals with the analysis of skeletal remains?",
+            "answer": "The forensic science discipline that deals with the analysis of skeletal remains is called forensic anthropology."
+        },
+        {
+            "category": "Forensic Science Disciplines",
+            "value": 500,
+            "question": "What is the forensic science discipline that deals with the analysis of digital evidence?",
+            "answer": "The forensic science discipline that deals with the analysis of digital evidence is called digital forensics."
+        },
+        {
+            "category": "Evidence and Analysis",
+            "value": 100,
+            "question": "What is the most common type of evidence found at a crime scene?",
+            "answer": "The most common type of evidence found at a crime scene is biological evidence, such as blood, saliva, or hair."
+        },
+        {
+            "category": "Evidence and Analysis",
+            "value": 200,
+            "question": "What is the significance of chain of custody in the handling of evidence?",
+            "answer": "Chain of custody refers to the chronological documentation or paper trail that records the sequence of individuals who have had physical possession of the evidence. It is important in the handling of evidence to ensure that the evidence has not been tampered with or contaminated and that it can be used as reliable evidence in court."
+        },
+        {
+            "category": "Evidence and Analysis",
+            "value": 300,
+            "question": "What is the significance of the Locard Exchange Principle in forensic analysis?",
+            "answer": "The Locard Exchange Principle states that every contact leaves a trace. It is significant in forensic analysis because it suggests that a perpetrator will always bring something into the crime scene and leave with something from it, and that these traces can be used as evidence to link a suspect to a crime scene."
+        },
+        {
+            "category": "Evidence and Analysis",
+            "value": 400,
+            "question": "What is the difference between direct and circumstantial evidence in a criminal case?",
+            "answer": "Direct evidence is evidence that directly proves a fact, such as an eyewitness account or a confession. Circumstantial evidence is evidence that suggests a fact but does not directly prove it, such as DNA evidence or fingerprints."
+        },
+        {
+            "category": "Evidence and Analysis",
+            "value": 500,
+            "question": "What are the three types of fingerprints found at a crime scene?",
+            "answer": "The three types of fingerprints found at a crime scene are patent prints (visible prints left on a surface by blood, ink, or some other substance), latent prints (invisible prints left on a surface that must be made visible through the use of a development process), and plastic prints (three-dimensional prints left in soft materials like clay, wax, or soap)."
+        },
+        {
+            "category": "Forensic Terminology",
+            "value": 100,
+            "question": "What is the definition of 'forensic science'?",
+            "answer": "Forensic science is the application of scientific methods to solve crimes and other legal issues."
+        },
+        {
+            "category": "Forensic Terminology",
+            "value": 200,
+            "question": "What is 'chain of custody' in forensic science?",
+            "answer": "Chain of custody refers to the chronological documentation or paper trail that records the handling, transfer, and location of physical or electronic evidence."
+        },
+        {
+            "category": "Forensic Terminology",
+            "value": 300,
+            "question": "What is 'forensic pathology'?",
+            "answer": "Forensic pathology is the study of disease and injury to determine the cause and manner of death, usually in a legal or criminal investigation."
+        },
+        {
+            "category": "Forensic Terminology",
+            "value": 400,
+            "question": "What is 'ballistics' in forensic science?",
+            "answer": "Ballistics is the study of the motion and behavior of projectiles, such as bullets, and the effects they have on their targets, usually used in the investigation of firearm-related crimes."
+        },
+        {
+            "category": "Forensic Terminology",
+            "value": 500,
+            "question": "What is the 'Locard Exchange Principle'?",
+            "answer": "The Locard Exchange Principle is the concept that every contact leaves a trace, and that the transfer of physical material or evidence between people, objects, or environments can provide important clues in forensic investigations."
+        },
+        {
+            "category": "History and Cases",
+            "value": 100,
+            "question": "Who is considered the 'father of forensic toxicology'?",
+            "answer": "Mathieu Orfila"
+        },
+        {
+            "category": "History and Cases",
+            "value": 200,
+            "question": "What was the significance of the 1893 case of 'The People v. Poggi'?",
+            "answer": "The case established the admissibility of fingerprint evidence in the United States."
+        },
+        {
+            "category": "History and Cases",
+            "value": 300,
+            "question": "What is the significance of the case of 'O. J. Simpson' in the history of forensic science?",
+            "answer": "The case brought attention to DNA profiling as a forensic tool and highlighted the importance of proper evidence handling and processing."
+        },
+        {
+            "category": "History and Cases",
+            "value": 400,
+            "question": "What is the 'Daubert standard'?",
+            "answer": "The Daubert standard is a legal precedent established in 1993 that requires the scientific validity of a proposed expert testimony to be established before it is presented in court."
+        },
+        {
+            "category": "History and Cases",
+            "value": 500,
+            "question": "What is the significance of the case of 'Ted Bundy' in forensic science?",
+            "answer": "The case is an example of how forensic techniques, such as dental impressions, hair analysis, and bite mark analysis, can be used to link a suspect to a crime scene and secure a conviction."
+        },
+        {
+            "category": "Forensic Challenges",
+            "value": 100,
+            "question": "What is the significance of the 'CSI effect'?",
+            "answer": "The 'CSI effect' is a phenomenon in which jurors expect forensic evidence in criminal cases to be as strong and conclusive as it is portrayed on television shows, leading to unrealistic expectations and potentially influencing verdicts."
+        },
+        {
+            "category": "Forensic Challenges",
+            "value": 200,
+            "question": "What are some challenges associated with using hair as forensic evidence?",
+            "answer": "Hair evidence can be easily contaminated, may not have the root attached, and is often difficult to individualize to a specific person."
+        },
+        {
+            "category": "Forensic Challenges",
+            "value": 300,
+            "question": "What are some challenges associated with using bite marks as forensic evidence?",
+            "answer": "Bite mark evidence is subjective, can be influenced by the bias of the examiner, and may not have enough individual characteristics to definitively identify a suspect."
+        },
+        {
+            "category": "Forensic Challenges",
+            "value": 400,
+            "question": "What is the significance of the 'National Academy of Sciences report' on forensic science?",
+            "answer": "The report highlighted the need for scientific validation and standardization of forensic techniques and recommended reforms to improve the reliability and accuracy of forensic evidence."
+        },
+        {
+            "category": "Forensic Challenges",
+            "value": 500,
+            "question": "What are some challenges associated with identifying and analyzing trace evidence?",
+            "answer": "Trace evidence, such as fibers, glass, and soil, is often small and can easily be lost or contaminated, and may require specialized techniques or equipment to analyze."
+        }
+    ]
+}
