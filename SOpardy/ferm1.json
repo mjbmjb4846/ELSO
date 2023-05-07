@@ -1,0 +1,161 @@
+{
+	"categories": [
+		"Animals",
+		"Plants",
+		"Universe",
+		"Chemistry",
+		"Toss Up"
+	],
+	"questions": [
+        {
+            "category": "Animals",
+            "value": 100,
+            "question": "How many different species of animals are estimated to exist on Earth?",
+            "answer": "The estimated number of animal species on Earth is around 8.7 million, although this is just an estimate as many species have not yet been discovered or identified."
+        },
+        {
+            "category": "Animals",
+            "value": 200,
+            "question": "What is the average lifespan of a housefly?",
+            "answer": "The average lifespan of a housefly is around 28 days, although it can vary depending on factors such as temperature and availability of food and water."
+        },
+        {
+            "category": "Animals",
+            "value": 300,
+            "question": "How many legs does a millipede have?",
+            "answer": "Despite its name, a millipede does not actually have a thousand legs. Most species have between 30 and 400 legs, depending on the species and its size."
+        },
+        {
+            "category": "Animals",
+            "value": 400,
+            "question": "How many different species of mammals are estimated to exist on Earth?",
+            "answer": "The estimated number of mammal species on Earth is around 5,500, although this is just an estimate as many species have not yet been discovered or identified."
+        },
+        {
+            "category": "Animals",
+            "value": 500,
+            "question": "How much weight can an ant carry?",
+            "answer": "An ant can carry up to 50 times its own body weight, which is equivalent to a human carrying a car on their back."
+        },
+        {
+            "category": "Plants",
+            "value": 100,
+            "question": "How many different species of plants are estimated to exist on Earth?",
+            "answer": "The estimated number of plant species on Earth is around 390,000, although this is just an estimate as many species have not yet been discovered or identified."
+        },
+        {
+            "category": "Plants",
+            "value": 200,
+            "question": "How many leaves does the average maple tree have?",
+            "answer": "It's difficult to give an exact number as it can vary greatly depending on the size and age of the tree, but on average a mature maple tree can have anywhere from 100,000 to 200,000 leaves."
+        },
+        {
+            "category": "Plants",
+            "value": 300,
+            "question": "What is the world's tallest tree and how tall is it?",
+            "answer": "The world's tallest tree is a coast redwood tree named Hyperion, which stands at 379.7 feet (115.7 meters) tall. It is located in Redwood National Park in California, USA."
+        },
+        {
+            "category": "Plants",
+            "value": 400,
+            "question": "How much oxygen does a single tree produce in a day?",
+            "answer": "The amount of oxygen produced by a tree can vary depending on the species and its size, but on average a mature tree can produce anywhere from 100 to 260 pounds (45 to 118 kilograms) of oxygen in a year, which is roughly enough to support two human beings. In a day, this works out to around 0.27 to 0.71 pounds (0.12 to 0.32 kilograms) of oxygen."
+        },
+        {
+            "category": "Plants",
+            "value": 500,
+            "question": "How long does it take for a pineapple plant to produce fruit?",
+            "answer": "It can take anywhere from 18 to 24 months for a pineapple plant to produce fruit, depending on the species and growing conditions."
+        },
+        {
+            "category": "Universe",
+            "value": 100,
+            "question": "How many stars are estimated to be in the observable universe?",
+            "answer": "The estimated number of stars in the observable universe is around 10^22 or 10 sextillion."
+        },
+        {
+            "category": "Universe",
+            "value": 200,
+            "question": "What is the estimated age of the universe?",
+            "answer": "The current estimate for the age of the universe is around 13.8 billion years."
+        },
+        {
+            "category": "Universe",
+            "value": 300,
+            "question": "How fast is the universe expanding?",
+            "answer": "The rate of expansion of the universe, also known as the Hubble constant, is currently estimated to be around 73.3 kilometers per second per megaparsec."
+        },
+        {
+            "category": "Universe",
+            "value": 400,
+            "question": "What is the estimated size of the observable universe?",
+            "answer": "The estimated size of the observable universe is around 93 billion light years in diameter."
+        },
+        {
+            "category": "Universe",
+            "value": 500,
+            "question": "What is the estimated number of galaxies in the observable universe?",
+            "answer": "The estimated number of galaxies in the observable universe is around 2 trillion or 2 x 10^12."
+        },
+        {
+            "category": "Chemistry",
+            "value": 100,
+            "question": "How many elements are currently known to exist?",
+            "answer": "Currently, there are 118 known elements."
+        },
+        {
+            "category": "Chemistry",
+            "value": 200,
+            "question": "What is the approximate size of a single atom?",
+            "answer": "The size of a single atom is typically around 0.1 to 0.5 nanometers, depending on the element."
+        },
+        {
+            "category": "Chemistry",
+            "value": 300,
+            "question": "What is the most abundant element in the Earth's crust?",
+            "answer": "The most abundant element in the Earth's crust is oxygen, followed by silicon and aluminum."
+        },
+        {
+            "category": "Chemistry",
+            "value": 400,
+            "question": "What is the chemical formula for water?",
+            "answer": "The chemical formula for water is H2O."
+        },
+        {
+            "category": "Chemistry",
+            "value": 500,
+            "question": "What is the approximate mass of a single proton?",
+            "answer": "The mass of a single proton is approximately 1.67 x 10^-27 kilograms."
+        },
+        {
+            "category": "Toss Up",
+            "value": 100,
+            "question": "How many grains of sand are estimated to exist on Earth?",
+            "answer": "It is estimated that there are approximately 7.5 x 10^18 grains of sand on Earth."
+        },
+        {
+            "category": "Toss Up",
+            "value": 200,
+            "question": "What is the approximate weight of a single raindrop?",
+            "answer": "The weight of a single raindrop varies, but it is typically around 0.1 grams or less."
+        },
+        {
+            "category": "Toss Up",
+            "value": 300,
+            "question": "How many neurons are estimated to exist in the human brain?",
+            "answer": "It is estimated that there are approximately 100 billion neurons in the human brain."
+        },
+        {
+            "category": "Toss Up",
+            "value": 400,
+            "question": "What is the approximate volume of the Earth's atmosphere?",
+            "answer": "The approximate volume of the Earth's atmosphere is 4.2 billion cubic kilometers."
+        },
+        {
+            "category": "Toss Up",
+            "value": 500,
+            "question": "How many possible chess games are estimated to exist?",
+            "answer": "The number of possible chess games is estimated to be around 10^120, which is greater than the number of atoms in the observable universe."
+        }
+    ]
+}
