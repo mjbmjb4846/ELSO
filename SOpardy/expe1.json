@@ -1,0 +1,161 @@
+{
+	"categories": [
+		"Types of Experimental Design",
+		"Factors and Variables in Experiments",
+		"Randomization and Control",
+		"Statistical Inference",
+		"Applications of Experimental Design"
+	],
+	"questions": [
+        {
+            "category": "Types of Experimental Design",
+            "value": 100,
+            "question": "What is an experimental design?",
+            "answer": "A plan for conducting a scientific experiment, which includes the independent variable, dependent variable, control group, and experimental group."
+        },
+        {
+            "category": "Types of Experimental Design",
+            "value": 200,
+            "question": "What is a randomized controlled trial?",
+            "answer": "A type of experimental design in which participants are randomly assigned to either a treatment or a control group, and the effects of the treatment are measured by comparing the outcomes of the two groups."
+        },
+        {
+            "category": "Types of Experimental Design",
+            "value": 300,
+            "question": "What is a quasi-experimental design?",
+            "answer": "A type of experimental design in which participants are not randomly assigned to treatment and control groups, but are instead grouped according to pre-existing characteristics or conditions."
+        },
+        {
+            "category": "Types of Experimental Design",
+            "value": 400,
+            "question": "What is a cross-sectional study?",
+            "answer": "A type of observational study in which data is collected at a single point in time from a sample of individuals or groups."
+        },
+        {
+            "category": "Types of Experimental Design",
+            "value": 500,
+            "question": "What is a longitudinal study?",
+            "answer": "A type of observational study in which data is collected over an extended period of time, allowing researchers to track changes and trends in behavior, health, or other variables."
+        },
+        {
+            "category": "Factors and Variables in Experiments",
+            "value": 100,
+            "question": "What is a factor in an experiment?",
+            "answer": "A variable that can be controlled or manipulated by the experimenter, such as the independent variable."
+        },
+        {
+            "category": "Factors and Variables in Experiments",
+            "value": 200,
+            "question": "What is a variable in an experiment?",
+            "answer": "Any characteristic or condition that can be measured or observed, such as the dependent variable."
+        },
+        {
+            "category": "Factors and Variables in Experiments",
+            "value": 300,
+            "question": "What is an independent variable?",
+            "answer": "The variable that is deliberately manipulated or controlled by the experimenter to observe its effect on the dependent variable."
+        },
+        {
+            "category": "Factors and Variables in Experiments",
+            "value": 400,
+            "question": "What is a dependent variable?",
+            "answer": "The variable that is measured or observed to determine the effect of the independent variable, which depends on the values of the independent variable."
+        },
+        {
+            "category": "Factors and Variables in Experiments",
+            "value": 500,
+            "question": "What is a confounding variable?",
+            "answer": "A variable that is not controlled or accounted for in the experiment, which can influence the results and make it difficult to determine the true effect of the independent variable on the dependent variable."
+        },
+        {
+            "category": "Randomization and Control",
+            "value": 100,
+            "question": "What is randomization?",
+            "answer": "The process of assigning subjects to different groups or treatments in an experiment randomly, to minimize bias and ensure that differences between groups are due to chance."
+        },
+        {
+            "category": "Randomization and Control",
+            "value": 200,
+            "question": "What is a control group?",
+            "answer": "A group in an experiment that is not exposed to the independent variable, or is given a placebo treatment, to serve as a baseline for comparison with the experimental group."
+        },
+        {
+            "category": "Randomization and Control",
+            "value": 300,
+            "question": "Why is randomization important in an experiment?",
+            "answer": "Randomization helps to ensure that the groups being compared are similar in all aspects except for the treatment, and that any differences between the groups are due to chance, rather than bias or other confounding variables."
+        },
+        {
+            "category": "Randomization and Control",
+            "value": 400,
+            "question": "What is blinding in an experiment?",
+            "answer": "Blinding is a technique used to prevent bias in an experiment, where the subjects, researchers, or both are unaware of the group assignment or treatment given to each subject."
+        },
+        {
+            "category": "Randomization and Control",
+            "value": 500,
+            "question": "What is a placebo treatment?",
+            "answer": "A placebo treatment is an inactive substance or procedure that is given to a control group, to mimic the experimental treatment, and help to control for the placebo effect or other extraneous factors."
+        },
+        {
+            "category": "Statistical Inference",
+            "value": 100,
+            "question": "What is statistical inference?",
+            "answer": "Statistical inference is the process of making inferences or conclusions about a population based on sample data, using probability and statistical models."
+        },
+        {
+            "category": "Statistical Inference",
+            "value": 200,
+            "question": "What is a hypothesis?",
+            "answer": "A hypothesis is a statement or proposition that is testable and can be either true or false, used as the basis for statistical inference and hypothesis testing."
+        },
+        {
+            "category": "Statistical Inference",
+            "value": 300,
+            "question": "What is a p-value?",
+            "answer": "A p-value is a probability value that measures the strength of evidence against the null hypothesis, and is used in hypothesis testing to determine if a result is statistically significant or not."
+        },
+        {
+            "category": "Statistical Inference",
+            "value": 400,
+            "question": "What is a confidence interval?",
+            "answer": "A confidence interval is a range of values that is likely to contain the true population parameter, based on the sample data and a chosen level of confidence."
+        },
+        {
+            "category": "Statistical Inference",
+            "value": 500,
+            "question": "What is the central limit theorem?",
+            "answer": "The central limit theorem states that the sampling distribution of the sample mean, or other sample statistic, will approach a normal distribution as the sample size increases, regardless of the population distribution."
+        },
+        {
+            "category": "Applications of Experimental Design",
+            "value": 100,
+            "question": "What is a randomized controlled trial?",
+            "answer": "A randomized controlled trial is an experiment in which participants are randomly assigned to either a treatment group or a control group, to test the effectiveness of a treatment or intervention."
+        },
+        {
+            "category": "Applications of Experimental Design",
+            "value": 200,
+            "question": "What is a double-blind study?",
+            "answer": "A double-blind study is an experiment in which both the participants and the researchers are unaware of which participants are in the treatment group or the control group, to minimize bias and increase the validity of the results."
+        },
+        {
+            "category": "Applications of Experimental Design",
+            "value": 300,
+            "question": "What is an observational study?",
+            "answer": "An observational study is a study in which researchers observe and measure outcomes or variables without intervening or manipulating any factors, often to investigate relationships or associations."
+        },
+        {
+            "category": "Applications of Experimental Design",
+            "value": 400,
+            "question": "What is a quasi-experiment?",
+            "answer": "A quasi-experiment is an experiment in which the participants are not randomly assigned to treatment groups or control groups, often due to ethical or practical limitations, but other aspects of experimental design are still used to increase the validity of the results."
+        },
+        {
+            "category": "Applications of Experimental Design",
+            "value": 500,
+            "question": "What is a factorial design?",
+            "answer": "A factorial design is an experiment in which multiple factors are systematically varied and tested simultaneously, to investigate the effects of each factor and their interactions on the outcome variable."
+        }
+    ]
+}
