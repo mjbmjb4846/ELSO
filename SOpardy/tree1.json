@@ -1,0 +1,161 @@
+{
+	"categories": [
+		"History and Practices",
+		"Science and Technology",
+		"Resources and Benefits",
+		"Conservation",
+		"Challenges and Solutions"
+	],
+	"questions": [
+        {
+            "category": "History and Practices",
+            "value": 100,
+            "question": "What is the history of forestry in the United States?",
+            "answer": "Forestry in the United States has its roots in the early 1900s, when conservationists like Gifford Pinchot began advocating for sustainable management of forests."
+        },
+        {
+            "category": "History and Practices",
+            "value": 200,
+            "question": "What are some common forestry practices?",
+            "answer": "Common forestry practices include planting and maintaining trees, harvesting timber, and managing forest ecosystems to promote healthy growth and biodiversity."
+        },
+        {
+            "category": "History and Practices",
+            "value": 300,
+            "question": "What is the role of wildfire in forest ecosystems?",
+            "answer": "Wildfire is a natural and important part of many forest ecosystems, helping to clear out dead vegetation, stimulate growth, and promote biodiversity."
+        },
+        {
+            "category": "History and Practices",
+            "value": 400,
+            "question": "What are some challenges associated with sustainable forestry?",
+            "answer": "Challenges include balancing economic and environmental goals, protecting forest biodiversity, and addressing the impacts of climate change on forest ecosystems."
+        },
+        {
+            "category": "History and Practices",
+            "value": 500,
+            "question": "What is the role of forest certification programs in promoting sustainable forestry?",
+            "answer": "Forest certification programs, such as the Forest Stewardship Council, provide independent verification that forests are being managed sustainably, promoting responsible forest practices and consumer awareness."
+        },
+        {
+            "category": "Science and Technology",
+            "value": 100,
+            "question": "What are some technological advancements in forestry?",
+            "answer": "Advancements include precision forestry techniques, remote sensing technology, and data-driven forest management strategies."
+        },
+        {
+            "category": "Science and Technology",
+            "value": 200,
+            "question": "How do scientists use genetics in forestry?",
+            "answer": "Scientists use genetics to develop more resilient and productive tree species, and to understand how genetics influences forest ecosystem dynamics."
+        },
+        {
+            "category": "Science and Technology",
+            "value": 300,
+            "question": "What is silviculture?",
+            "answer": "Silviculture is the practice of managing forest ecosystems for the production of timber or other forest products, while maintaining ecological sustainability."
+        },
+        {
+            "category": "Science and Technology",
+            "value": 400,
+            "question": "What is forest hydrology?",
+            "answer": "Forest hydrology is the study of how forests influence the movement and quality of water, including how trees intercept, store, and release water into the environment."
+        },
+        {
+            "category": "Science and Technology",
+            "value": 500,
+            "question": "What is forest engineering?",
+            "answer": "Forest engineering involves the design and construction of forest infrastructure, such as roads, bridges, and harvesting systems, to support sustainable forest management."
+        },
+        {
+            "category": "Resources and Benefits",
+            "value": 100,
+            "question": "What are some benefits of forests to human society?",
+            "answer": "Forests provide numerous ecosystem services, including clean air and water, biodiversity, recreation opportunities, and wood and non-timber forest products."
+        },
+        {
+            "category": "Resources and Benefits",
+            "value": 200,
+            "question": "What is sustainable forest management?",
+            "answer": "Sustainable forest management involves balancing ecological, social, and economic considerations to maintain forest ecosystem health and productivity, while also meeting the needs of human society."
+        },
+        {
+            "category": "Resources and Benefits",
+            "value": 300,
+            "question": "What are some common forest products?",
+            "answer": "Common forest products include timber, pulp and paper, wood pellets, maple syrup, and various non-timber products such as mushrooms, berries, and medicinal plants."
+        },
+        {
+            "category": "Resources and Benefits",
+            "value": 400,
+            "question": "What is forest certification?",
+            "answer": "Forest certification is a process by which independent organizations verify that a forest management operation is meeting certain environmental and social standards, such as those set by the Forest Stewardship Council (FSC) or Sustainable Forestry Initiative (SFI)."
+        },
+        {
+            "category": "Resources and Benefits",
+            "value": 500,
+            "question": "What are some challenges facing sustainable forest management?",
+            "answer": "Challenges include illegal logging, climate change impacts, invasive species, and balancing competing demands for forest resources among different stakeholder groups."
+        },
+        {
+            "category": "Conservation",
+            "points": 100,
+            "question": "What is conservation in forestry?",
+            "answer": "Conservation in forestry refers to the sustainable management of forests, including the protection of forest ecosystems and the wildlife they support, as well as the management of forest resources to meet the needs of present and future generations."
+        },
+        {
+            "category": "Conservation",
+            "points": 200,
+            "question": "What are some conservation practices used in forestry?",
+            "answer": "Conservation practices used in forestry include selective harvesting, reforestation, maintaining biodiversity, protecting forest habitats, and preventing deforestation."
+        },
+        {
+            "category": "Conservation",
+            "points": 300,
+            "question": "Why is conservation important in forestry?",
+            "answer": "Conservation is important in forestry because forests provide a wide range of benefits to society, including clean air and water, wildlife habitat, recreation, and wood products. By managing forests sustainably, we can ensure that these benefits are available for current and future generations."
+        },
+        {
+            "category": "Conservation",
+            "points": 400,
+            "question": "What are some threats to forest conservation?",
+            "answer": "Some threats to forest conservation include deforestation, habitat fragmentation, invasive species, pollution, and climate change."
+        },
+        {
+            "category": "Conservation",
+            "points": 500,
+            "question": "How can individuals contribute to forest conservation?",
+            "answer": "Individuals can contribute to forest conservation by supporting sustainable forestry practices, reducing their use of wood and paper products, participating in reforestation efforts, and supporting organizations that work to protect forests and wildlife."
+        },
+        {
+            "category": "Forestry: Challenges and Solutions",
+            "value": 100,
+            "question": "What are some challenges faced by forestry today?",
+            "answer": "Some challenges faced by forestry include deforestation, climate change, forest fires, and invasive species."
+        },
+        {
+            "category": "Forestry: Challenges and Solutions",
+            "value": 200,
+            "question": "How can forest management practices help address challenges in forestry?",
+            "answer": "Forest management practices, such as sustainable harvesting, reforestation, and prescribed burns, can help address challenges in forestry by promoting healthy forests and reducing the impact of forest disturbances."
+        },
+        {
+            "category": "Forestry: Challenges and Solutions",
+            "value": 300,
+            "question": "What are some solutions to prevent forest fires?",
+            "answer": "Some solutions to prevent forest fires include controlled burns, fire breaks, and early detection and suppression of wildfires through aerial surveillance and ground crews."
+        },
+        {
+            "category": "Forestry: Challenges and Solutions",
+            "value": 400,
+            "question": "What are some ways to mitigate the impact of climate change on forests?",
+            "answer": "Some ways to mitigate the impact of climate change on forests include reducing greenhouse gas emissions, promoting reforestation and afforestation, and managing forests to increase their resilience to climate change."
+        },
+        {
+            "category": "Forestry: Challenges and Solutions",
+            "value": 500,
+            "question": "What are some challenges associated with invasive species in forestry?",
+            "answer": "Invasive species can outcompete native species, reduce biodiversity, and alter forest ecosystems. They can also impact forest industries and cause economic losses."
+        }
+    ]
+}
