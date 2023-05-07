@@ -1,0 +1,161 @@
+{
+	"categories": [
+		"Types and Uses",
+		"Symbols and Legends",
+		"Geologic Map Databases",
+		"Interpretation and Analysis",
+		"History and Development"
+	],
+	"questions": [
+        {
+            "category": "Types and Uses",
+            "value": 100,
+            "question": "What is a geologic map?",
+            "answer": "A map that displays the distribution of geologic features and rock units on the Earth's surface."
+        },
+        {
+            "category": "Types and Uses",
+            "value": 200,
+            "question": "What are the different types of geologic maps?",
+            "answer": "Bedrock, surficial, and structural geologic maps."
+        },
+        {
+            "category": "Types and Uses",
+            "value": 300,
+            "question": "What is a bedrock geologic map?",
+            "answer": "A map that shows the distribution of different types of rocks that make up the Earth's crust."
+        },
+        {
+            "category": "Types and Uses",
+            "value": 400,
+            "question": "What is a surficial geologic map?",
+            "answer": "A map that shows the distribution of sediments and soils on the Earth's surface."
+        },
+        {
+            "category": "Types and Uses",
+            "value": 500,
+            "question": "What is a structural geologic map?",
+            "answer": "A map that shows the orientation and distribution of rock units and geologic features such as faults and folds."
+        },
+        {
+            "category": "Symbols and Legends",
+            "value": 100,
+            "question": "What is a map legend?",
+            "answer": "A map legend is a key or guide that explains what symbols on a map represent."
+        },
+        {
+            "category": "Symbols and Legends",
+            "value": 200,
+            "question": "What is a compass rose on a map?",
+            "answer": "A compass rose is a symbol on a map that shows the cardinal directions (north, south, east, and west) and sometimes intermediate directions."
+        },
+        {
+            "category": "Symbols and Legends",
+            "value": 300,
+            "question": "What does a contour line on a map represent?",
+            "answer": "A contour line is a line on a map that connects points of equal elevation. They represent changes in elevation and slope of the land."
+        },
+        {
+            "category": "Symbols and Legends",
+            "value": 400,
+            "question": "What is a scale on a map?",
+            "answer": "A scale on a map is a measurement tool that shows the relationship between a distance on a map and the corresponding distance on the ground."
+        },
+        {
+            "category": "Symbols and Legends",
+            "value": 500,
+            "question": "What is the difference between a physical map and a political map?",
+            "answer": "A physical map shows physical features of the land, such as mountains, rivers, and deserts, while a political map shows human-made features of the land, such as borders, cities, and roads."
+        },
+        {
+            "category": "Geologic Map Databases",
+            "value": 100,
+            "question": "What are geologic map databases?",
+            "answer": "Geologic map databases are digital collections of geologic maps and related geoscientific data, typically available online."
+        },
+        {
+            "category": "Geologic Map Databases",
+            "value": 200,
+            "question": "What is the purpose of geologic map databases?",
+            "answer": "Geologic map databases are designed to provide easy access to geologic maps and related geoscientific data to aid in exploration, resource management, land-use planning, environmental analysis, and scientific research."
+        },
+        {
+            "category": "Geologic Map Databases",
+            "value": 300,
+            "question": "What kinds of data can be found in geologic map databases?",
+            "answer": "Geologic map databases typically include digital maps, cross sections, geophysical data, drill hole information, and other geoscientific data related to the geology and mineral resources of a particular region."
+        },
+        {
+            "category": "Geologic Map Databases",
+            "value": 400,
+            "question": "What are some examples of geologic map databases?",
+            "answer": "Examples of geologic map databases include the National Geologic Map Database (NGMDB) in the United States, the GeoGratis database in Canada, and the OneGeology project, which provides access to geologic map data from around the world."
+        },
+        {
+            "category": "Geologic Map Databases",
+            "value": 500,
+            "question": "How have geologic map databases improved the field of geology?",
+            "answer": "Geologic map databases have made it easier and more efficient for geologists and other researchers to access and use geologic map data and related geoscientific information, leading to advances in the understanding of Earth's geology, natural resources, and environmental processes."
+        },
+        {
+            "category": "Interpretation and Analysis",
+            "value": 100,
+            "question": "What is the process of interpreting geologic maps?",
+            "answer": "Interpreting geologic maps involves analyzing the patterns, relationships, and symbols presented on the map to determine the geological history of the area."
+        },
+        {
+            "category": "Interpretation and Analysis",
+            "value": 200,
+            "question": "What is the importance of cross-sections in geologic map interpretation?",
+            "answer": "Cross-sections provide a vertical view of the geology beneath the Earth's surface, which helps to interpret the relationships between different rock units and geologic features."
+        },
+        {
+            "category": "Interpretation and Analysis",
+            "value": 300,
+            "question": "What are the limitations of geologic maps in terms of accuracy and resolution?",
+            "answer": "Geologic maps are limited by the scale and resolution at which they are created. Small features or subtle changes in geology may not be visible or accurately represented on a map of a larger scale."
+        },
+        {
+            "category": "Interpretation and Analysis",
+            "value": 400,
+            "question": "How can geologic maps be used in resource exploration and extraction?",
+            "answer": "Geologic maps can be used to identify areas with potential for the presence of valuable resources such as minerals, oil, and gas. They can also help to plan and optimize the extraction of these resources."
+        },
+        {
+            "category": "Interpretation and Analysis",
+            "value": 500,
+            "question": "What are some of the challenges in interpreting geologic maps in areas with complex geology?",
+            "answer": "Complex geology, such as that found in mountainous regions, can present challenges in interpreting geologic maps due to the presence of multiple rock units and structures that may be folded, faulted, or disrupted."
+        },
+        {
+            "category": "History and Development",
+            "value": 100,
+            "question": "Who is considered the father of geologic mapping?",
+            "answer": "William Smith"
+        },
+        {
+            "category": "History and Development",
+            "value": 200,
+            "question": "In what year was the first geological map of the United States published?",
+            "answer": "1809"
+        },
+        {
+            "category": "History and Development",
+            "value": 300,
+            "question": "What is the name of the first national geological survey established in the world?",
+            "answer": "Geological Survey of Great Britain"
+        },
+        {
+            "category": "History and Development",
+            "value": 400,
+            "question": "What is the name of the geologic map of Europe that was completed in the 19th century?",
+            "answer": "Geological Map of Europe"
+        },
+        {
+            "category": "History and Development",
+            "value": 500,
+            "question": "What was the first country to produce a geological map at a national scale?",
+            "answer": "France"
+        }
+    ]
+}
