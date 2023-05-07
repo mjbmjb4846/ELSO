@@ -1,0 +1,161 @@
+{
+	"categories": [
+		"Geology",
+		"Meteorology",
+		"Oceanography",
+		"Astronomy",
+		"Hydrology"
+	],
+	"questions": [
+        {
+            "category": "Geology",
+            "value": 100,
+            "question": "What is a mineral?",
+            "answer": "A naturally occurring inorganic substance with a specific chemical composition and crystal structure."
+        },
+        {
+            "category": "Geology",
+            "value": 200,
+            "question": "What is an example of an igneous rock?",
+            "answer": "Granite, basalt, and pumice are all examples of igneous rocks."
+        },
+        {
+            "category": "Geology",
+            "value": 300,
+            "question": "What is erosion?",
+            "answer": "The process by which wind, water, ice, or gravity move soil and rock fragments from one place to another."
+        },
+        {
+            "category": "Geology",
+            "value": 400,
+            "question": "What is a fault?",
+            "answer": "A fracture or discontinuity in the Earth's crust along which movement has occurred."
+        },
+        {
+            "category": "Geology",
+            "value": 500,
+            "question": "What is a mineral deposit?",
+            "answer": "An accumulation of valuable minerals that can be economically extracted from the Earth's crust."
+        },
+        {
+            "category": "Meteorology",
+            "value": 100,
+            "question": "What is the definition of weather?",
+            "answer": "Weather refers to the current atmospheric conditions, including temperature, precipitation, humidity, wind speed and direction, and atmospheric pressure."
+        },
+        {
+            "category": "Meteorology",
+            "value": 200,
+            "question": "What is the difference between weather and climate?",
+            "answer": "Weather refers to short-term atmospheric conditions, while climate refers to long-term patterns of weather over a period of years, decades, or centuries."
+        },
+        {
+            "category": "Meteorology",
+            "value": 300,
+            "question": "What is the Coriolis effect?",
+            "answer": "The Coriolis effect is the apparent deflection of moving objects (including air masses) to the right in the Northern Hemisphere and to the left in the Southern Hemisphere due to the Earth's rotation."
+        },
+        {
+            "category": "Meteorology",
+            "value": 400,
+            "question": "What is a tornado?",
+            "answer": "A violent rotating column of air that extends from a thunderstorm to the ground, capable of causing significant damage and loss of life."
+        },
+        {
+            "category": "Meteorology",
+            "value": 500,
+            "question": "What is the greenhouse effect?",
+            "answer": "The greenhouse effect is the natural process by which the Earth's atmosphere traps some of the sun's energy, keeping the planet warm and habitable for living organisms."
+        },
+        {
+            "category": "Oceanography",
+            "value": 100,
+            "question": "What is oceanography?",
+            "answer": "The scientific study of the ocean, including its physical and biological properties, geology, and ecology."
+        },
+        {
+            "category": "Oceanography",
+            "value": 200,
+            "question": "What is ocean acidification?",
+            "answer": "The ongoing decrease in the pH of the Earth's oceans, caused by the absorption of excess atmospheric carbon dioxide."
+        },
+        {
+            "category": "Oceanography",
+            "value": 300,
+            "question": "What is a tide?",
+            "answer": "The regular rise and fall of sea level due to the gravitational pull of the Moon and the Sun on the Earth's oceans."
+        },
+        {
+            "category": "Oceanography",
+            "value": 400,
+            "question": "What is upwelling?",
+            "answer": "The process by which deep, cold, nutrient-rich water is brought to the surface of the ocean, often resulting in high productivity and biodiversity in the surrounding areas."
+        },
+        {
+            "category": "Oceanography",
+            "value": 500,
+            "question": "What is a continental shelf?",
+            "answer": "The gently sloping underwater edge of a continent that extends from the shoreline to a drop-off point called the shelf break, where the ocean floor begins to steepen."
+        },
+        {
+            "category": "Astronomy",
+            "value": 100,
+            "question": "What is an equinox?",
+            "answer": "An equinox is the moment in Earth's orbit when the plane of the Equator passes through the center of the Sun, resulting in roughly equal amounts of daylight and darkness around the world."
+        },
+        {
+            "category": "Astronomy",
+            "value": 200,
+            "question": "What is a solstice?",
+            "answer": "A solstice is the moment in Earth's orbit when the tilt of the Earth's axis is either closest to or farthest from the Sun, resulting in the longest or shortest day of the year, respectively."
+        },
+        {
+            "category": "Astronomy",
+            "value": 300,
+            "question": "What is the aurora borealis (or northern lights)?",
+            "answer": "A natural light display in the Earth's atmosphere, predominantly seen in high-latitude regions, caused by charged particles from the Sun interacting with the Earth's magnetic field."
+        },
+        {
+            "category": "Astronomy",
+            "value": 400,
+            "question": "What is the ozone layer?",
+            "answer": "A region of the Earth's stratosphere that contains a high concentration of ozone, which absorbs most of the Sun's ultraviolet radiation and protects the Earth's surface from its harmful effects."
+        },
+        {
+            "category": "Astronomy",
+            "value": 500,
+            "question": "What is a meteorite?",
+            "answer": "A solid piece of debris from an object, such as a comet or asteroid, that has survived its passage through the Earth's atmosphere and impacted the Earth's surface."
+        },
+        {
+            "category": "Hydrology",
+            "value": 100,
+            "question": "What is hydrology?",
+            "answer": "The study of water in the Earth's system, including its distribution, movement, and quality."
+        },
+        {
+            "category": "Hydrology",
+            "value": 200,
+            "question": "What is the water cycle?",
+            "answer": "The continuous process by which water evaporates from the Earth's surface, rises into the atmosphere, condenses into clouds, and falls back to the surface as precipitation."
+        },
+        {
+            "category": "Hydrology",
+            "value": 300,
+            "question": "What is a watershed?",
+            "answer": "An area of land that drains all the water that falls within it into a common body of water, such as a river, lake, or ocean."
+        },
+        {
+            "category": "Hydrology",
+            "value": 400,
+            "question": "What is groundwater?",
+            "answer": "Water that exists beneath the Earth's surface in pores and spaces within rock, soil, and sediment."
+        },
+        {
+            "category": "Hydrology",
+            "value": 500,
+            "question": "What is a floodplain?",
+            "answer": "The low-lying area adjacent to a river, stream, or other watercourse that is subject to flooding during high water events."
+        }
+    ]
+}
