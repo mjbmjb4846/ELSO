@@ -7,7 +7,7 @@
 			position: absolute;
 			left: 50%;
 			transform: translateX(-50%);
-			width: 500px;
+			width: 700px;
 			height: 700px;
 		}
 		.container .card {
@@ -24,19 +24,32 @@
 			cursor:cell;
             font-family: Arial, Helvetica, sans-serif;
 		}
-		.card::before {
+		.container .card::before {
 		  content: attr(data-text);
 		  position: absolute;
 		  top: 0;
 		  left: 0;
-		  filter: contrast(200%) saturate(2000%);
+		  filter: contrast(2000%) saturate(2000%);
 		}
 		.container .card:hover {
 			box-shadow: 0px 0px 5px black;
 		}
         .container .card .name {
+			position: relative;
+			left: 25px;
+			width: 200px;
 			font-size: 24px;
+			text-align: left;
+			margin-top: 0px;
+            font-weight: 750;
+		}
+		.container .card .hp {
+			position: absolute;
 			text-align: center;
+			top: 10px;
+			right: 0;
+			width: 80px;
+			font-size: 24px;
 			margin-top: 0px;
             font-weight: 750;
 		}
@@ -164,7 +177,6 @@
 			cursor: pointer;
 			transition: background-color 0.3s ease;
 		}
-
 		.container .copy:hover {
 			background-color: #3e8e41;
 		}
@@ -172,10 +184,23 @@
         .container .save:hover {
 			background-color: #3e8e41;
 		}
-
         .container #colorPicker {
             position: absolute;
             top: 50px;
+            left: 20px;
+            width: 80px;
+            height: 80px;
+        }
+		.container #textPicker {
+            position: absolute;
+            bottom: 50px;
+            left: 20px;
+            width: 80px;
+            height: 80px;
+        }
+		.container #cardPicker {
+            position: absolute;
+            bottom: 140px;
             left: 20px;
             width: 80px;
             height: 80px;
@@ -186,7 +211,7 @@
 	</style>
 	<script>
 		function saveCard() {
-			html2canvas(document.querySelector(".card"), {
+		  html2canvas(document.querySelector(".card"), {
             backgroundColor: null
           }).then(canvas => {
 				var image = canvas.toDataURL("image/png");
@@ -225,20 +250,27 @@
 <body>
   <div class="container">
 	<div class="card">
-        <div class="name" contenteditable="true">Name</div>
+        <div class="name" title="Card Name" contenteditable="true">Name</div>
+		<div class="hp" title="Card Health" contenteditable="true">❤️</div>
         <label class="cimg" for="card-image-upload">
-          <img id="card-image" src="https://via.placeholder.com/300x200" alt="Card Image">
+          <img id="card-image" title="Card Image (300x200 px)" src="https://via.placeholder.com/300x200" alt="Card Image">
         </label>
         <input id="card-image-upload" type="file" accept="image/*" style="display: none;">
-		<div class="fact" contenteditable="true">Fact</div>
-        <div class="description" contenteditable="true">Description</div>
+		<div class="fact" title="Card Details" contenteditable="true">Details</div>
+        <div class="description" title="Card Description/Rules" contenteditable="true">Description</div>
 		<div class="stats">
-    	  <span class="ability" contenteditable="true">Ability</span>
-    	  <span class="effect" contenteditable="true">Effect</span>
+    	  <span class="ability" title="Ability #1" contenteditable="true">Ability1</span>
+    	  <span class="effect" title="Effect #1" contenteditable="true">Effect1</span>
+		  <span class="ability" title="Ability #2" contenteditable="true" style="transform: translateY(200%);">Ability2</span>
+    	  <span class="effect" title="Effect #2" contenteditable="true" style="transform: translateY(200%);">Effect2</span>
+		  <span class="ability" title="Ability #3" contenteditable="true" style="transform: translateY(400%);">Ability3</span>
+    	  <span class="effect" title="Effect #3" contenteditable="true" style="transform: translateY(400%);">Effect3</span>
     	</div>
-		<span class="info" contenteditable="true">©2023 mjbmc -- Made on elhssoc.com -- version 1</span>
+		<span class="info" title="Card Info" contenteditable="true">©2023 mjbmc -- Made on elhssoc.com -- version 1</span>
 	</div> 
-	<input type="color" id="colorPicker" onchange="changeColor()">
+	<input type="color" title="Card Color" id="colorPicker" onchange="changeColor()">
+	<input type="color" title="Text Color" id="textPicker" onchange="changeText()">
+	<input type="color" title="Background Color" id="cardPicker" onchange="changeCard()">
 	<button class="copy" onclick="copyCard()">Copy Card to Clipboard</button>
     <button class="save" onclick="copyCard()">Save Card as Image</button>
 	<button class="open" onclick="openTab()">Open Code</button>
@@ -248,12 +280,25 @@
 
       <script>
       function changeColor() {
-	    var color = document.getElementById("colorPicker").value;
-	    document.querySelector(".card").style.backgroundColor = color;
-	    var colorArray = hexToRgb(color);
+	    var cardColor = document.getElementById("colorPicker").value;
+	    changeCard(cardColor);
+		document.getElementById("cardPicker").setAttribute("value", cardColor);
+	    var colorArray = hexToRgb(cardColor);
 	    var textColorArray = invertColor(colorArray);
 	    var textColor = rgbToHex(textColorArray);
-	    document.querySelector(".card").style.color = textColor;
+	    changeText(textColor);
+		document.getElementById("textPicker").setAttribute("value", textColor);
+	  }
+
+	  function changeCard(color) {
+		var cardColor = color || document.getElementById("cardPicker").value;
+	    document.querySelector(".card").style.backgroundColor = cardColor;
+		document.getElementById("colorPicker").setAttribute("value", cardColor);
+	  }
+
+	  function changeText(color) {
+		var textColor = color || document.getElementById("textPicker").value;
+		document.querySelector(".card").style.color = textColor;
 	  }
 	  
 	  function hexToRgb(hex) {
@@ -291,7 +336,8 @@
 		  let ability = encodeURI(document.querySelector(".ability").textContent);
 		  let effect = encodeURI(document.querySelector(".effect").textContent);
 		  let info = encodeURI(document.querySelector(".info").textContent);
-		  let clr = document.getElementById("colorPicker").value;
+		  let bgclr = document.getElementById("cardPicker").value;
+		  let txtclr = document.getElementById("textPicker").value;
 
 		  let card = {
 		    name: name,
@@ -301,7 +347,8 @@
 		    ability: ability,
 		    effect: effect,
 		    info: info,
-			clr: clr
+			bgclr: bgclr,
+			txtclr: txtclr
 		  };
 	  
 		  let cardJSON = JSON.stringify(card);
@@ -321,9 +368,12 @@
 		  document.querySelector(".ability").textContent = decodeURI(card.ability);
 		  document.querySelector(".effect").textContent = decodeURI(card.effect);
 		  document.querySelector(".info").textContent = decodeURI(card.info);
-		  document.getElementById("colorPicker").setAttribute("value", card.clr);
+		  document.getElementById("colorPicker").setAttribute("value", card.bgclr);
+		  document.getElementById("cardPicker").setAttribute("value", card.bgclr);
+		  document.getElementById("textPicker").setAttribute("value", card.txtclr);
 
-		  changeColor();
+		  changeCard();
+		  changeText();
 		}
 	  </script>
       
